@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "ingest": "tsx scripts/ingest.ts",
-    "search": "tsx scripts/search.ts"
+    "search": "tsx scripts/search.ts",
+    "ask": "tsx scripts/ask.ts"
   },
   "repository": {
     "type": "git",
