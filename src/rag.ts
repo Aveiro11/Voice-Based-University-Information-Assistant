@@ -70,7 +70,7 @@ Rules:
 - Your answer will be read out loud: one to three short sentences, plain words, no lists, no markdown, no course codes.
 - Never add facts that are not in the excerpts. No guessing about dates, fees, deadlines or application details.
 - If the excerpts do not answer the question, say so briefly. This syllabus is the 2024 version and does not cover tuition fees, deadlines or timetables. Point the person to the study counselling email mlt-info@flov.gu.se.
-- If the question is too vague to answer, ask one short clarifying question.`,
+- - If the question is too vague to answer (for example "the course" without saying which one), do not answer. Ask one short question about what they want to know.`,
       },
       { role: "user", content: question },
     ],

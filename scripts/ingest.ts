@@ -47,25 +47,36 @@ const splitter = new RecursiveCharacterTextSplitter({
 
 const pieces: { text: string; page: number }[] = [];
 let offset = 0;
+let heading = ""; // latest numbered heading, e.g. "6. Content and structure"
 for (const section of sections) {
-  const page = pageAt(offset); // long sections get their start page, good enough
+  const page = pageAt(offset);
   offset += section.length;
   const body = section.trim();
   if (!body) continue;
-  if (body.length <= MAX_CHUNK) {
-    pieces.push({ text: body, page });
+
+  const lines = body.split("\n");
+  const isNumbered = /^\d+\. /.test(lines[0]);
+  if (isNumbered) heading = lines[0].trim();
+  // a bare heading like "5. Outcomes" has no content, it only becomes a prefix
+  if (isNumbered && lines.slice(1).join("").trim() === "") continue;
+
+  // "Semester 2" and friends get their parent heading in front
+  const text = isNumbered || !heading ? body : `${heading}\n${body}`;
+  if (text.length <= MAX_CHUNK) {
+    pieces.push({ text, page });
     continue;
   }
-  // too long: split further, but repeat the heading so every piece has context
+  // too long: split further, repeating the title so each piece has context
   const title = body.split("\n")[0].trim();
-  for (const sub of await splitter.splitText(body)) {
-    pieces.push({ text: sub.startsWith(title) ? sub : `${title}\n${sub}`, page });
+  for (const sub of await splitter.splitText(text)) {
+    const hasTitle = sub.startsWith(title) || (heading && sub.startsWith(heading));
+    pieces.push({ text: hasTitle ? sub : `${title}\n${sub}`, page });
   }
 }
 
 const points = [];
 for (const [i, piece] of pieces.entries()) {
-  console.log(`p${piece.page} | ${piece.text.length} chars | ${piece.text.split("\n")[0]}`);
+    console.log(`p${piece.page} | ${piece.text.length} chars | ${piece.text.replace(/\s+/g, " ").slice(0, 60)}`);
   points.push({
     id: uuidv4(),
     vector: await embed(piece.text),
