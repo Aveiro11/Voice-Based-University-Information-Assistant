@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+node_modules/
+qdrant_data/
+src/azure.ts
+.env

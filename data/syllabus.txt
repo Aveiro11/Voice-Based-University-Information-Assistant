@@ -1,0 +1,216 @@
+=== PAGE 1 ===
+Programme Syllabus  Reg.no. GU
+2023/3048
+University of Gothenburg
+FACULTY BOARD OF HUMANITIES
+Master in Language Technology, 120 credits
+Språkteknologi, masterprogram, 120 högskolepoäng
+ 
+Programme code: H2LTG
+ 
+Second cycle / Avancerad nivå
+ 
+ 
+ 
+1. Confirmation
+ 
+This programme syllabus was confirmed by the Faculty Board of Humanities on 05-05-2022
+(GU 2022-603) and was last revised on 07-12-2023 (GU 2023/3048) by the Dean of the Faculty
+to be valid from 01-02-2024, Autumn semester 2024.
+ 
+Responsible Department/equivalent: Department of Philosophy, Linguistics and Theory of
+Science
+ 
+ 
+2. Purpose
+ 
+The aim is to provide students with an appropriate background with advanced knowledge in
+natural language technology enabling them to pursue a specialist career in industry or academic
+research.
+ 
+ 
+3. Entry requirements
+ 
+Students with an undergraduate degree (at least three years full-time study) in
+ 
+• language technology,
+• computational linguistics,
+• computer science, or
+• linguistics (with a background in formal linguistics, programming, or mathematics,
+inclusively, corresponding to 30 hecr, half a year full-time study)
+are eligible to apply for this programme.
+ 
+Students with an undergraduate degree in cognitive science, languages, philosophy, engineering,
+information technology, mathematics, or other relevant fields can also be considered, provided
+they can show a background in formal linguistics, programming, computer science, or
+mathematics, inclusively, corresponding to 30 hecr, half a year full-time study.
+ 
+English 6 or equivalent is also required.
+ 
+(H2LTG) Master in Language Technology, 120 credits / Språkteknologi, masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+
+=== PAGE 2 ===
+4. Higher education qualification and main field of study
+ 
+This programme leads to a Degree of Master of Arts (120 credits) with a major in Language
+Technology (Filosofie masterexamen med huvudområdet Språkteknologi).
+ 
+ 
+5. Outcomes
+ 
+General outcomes for Degree of Master (120 credits)
+ 
+Knowledge and understanding
+ 
+For a Degree of Master (120 credits) the student shall
+ 
+• demonstrate knowledge and understanding in the main field of study, including both broad
+knowledge of the field and a considerable degree of specialised knowledge in certain areas
+of the field as well as insight into current research and development work, and
+• demonstrate specialised methodological knowledge in the main field of study.
+  
+Competence and skills
+ 
+For a Degree of Master (120 credits) the student shall
+ 
+• demonstrate the ability to critically and systematically integrate knowledge and analyse,
+assess and deal with complex phenomena, issues and situations even with limited
+information
+• demonstrate the ability to identify and formulate issues critically, autonomously and
+creatively as well as to plan and, using appropriate methods, undertake advanced tasks
+within predetermined time frames and so contribute to the formation of knowledge as well
+as the ability to evaluate this work
+• demonstrate the ability in speech and writing both nationally and internationally to clearly
+report and discuss his or her conclusions and the knowledge and arguments on which they
+are based in dialogue with different audiences, and
+• demonstrate the skills required for participation in research and development work or
+autonomous employment in some other qualified capacity.
+  
+Judgement and approach
+ 
+For a Degree of Master (120 credits) the student shall
+ 
+• demonstrate the ability to make assessments in the main field of study informed by relevant
+disciplinary, social and ethical issues and also to demonstrate awareness of ethical aspects
+of research and development work
+• demonstrate insight into the possibilities and limitations of research, its role in society and
+the responsibility of the individual for how it is used, and
+• demonstrate the ability to identify the personal need for further knowledge and take
+responsibility for his or her ongoing learning.
+  
+ 
+Local outcomes
+ 
+After completing the programme students will:
+ 
+(H2LTG) Master in Language Technology, 120 credits / Språkteknologi, masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+2/4
+
+=== PAGE 3 ===
+Knowledge and understanding
+ 
+• have advanced knowledge of current technologies used in natural language processing and
+speech technology,
+• have advanced knowledge of theories and methods which are applied in current natural
+language technologies,
+ 
+Competence and skills
+ 
+• have sufficient programming skills in order to develop language technology system
+components,
+• have experience of project work as part of a research and/or development team either
+through an industrial placement or through placement in one of the laboratories
+conducting language technology research at the University of Gothenburg,
+  
+ 
+Judgement and approach
+ 
+• have an appreciation of the human factors, social, and ethical issues relating to the
+development and deployment of language technology,
+• have an appreciation of the relationship between language technology and other key
+technologies such as world wide web and mobile systems technologies.
+  
+ 
+6. Content and structure
+ 
+Overview
+ 
+Semester 1
+ 
+These courses are compulsory for graduation:
+ 
+• LT2001 Introduction to programming, 7.5hec
+• LT2002 Introduction to formal linguistics, 7.5hec
+• LT2123 Basic skills for language technology, 7.5hec
+• LT2124 Themes in NLP and language technology, 7.5hec
+The goal of the first semester is to impart to the students the basic programming, mathematical,
+and formal linguistic knowledge required for advanced engagement with language technology,
+while giving students an introductory overview of the field of study.
+ 
+Semester 2
+ 
+These courses are compulsory for graduation:
+ 
+• LT2222 Machine learning for statistical NLP: introduction, 7.5hec
+• LT2216 Dialogue systems, 7.5hec
+• LT2213 Computational semantics, 7.5hec
+• LT2214 Computational syntax, 7.5hec
+The goal of the second semester is for students to acquire direct hands-on skills with
+contemporary areas of theory and practice in language technology.  The program teaches
+machine learning and statistical approaches to allow students to engage with contemporary
+NLP research and development. They also gain exposure to industrially-applied dialogue
+(H2LTG) Master in Language Technology, 120 credits / Språkteknologi, masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+3/4
+
+=== PAGE 4 ===
+systems and conversational AI. It imparts knowledge of present-day computational approaches
+in traditional linguistic areas such as syntax and semantics.
+ 
+Semester 3
+ 
+In the third semester, students shall take elective courses representing 30hec from contributing
+departments (the Department of Philosophy, Linguistics, and Theory of Science; the
+Department of Swedish, Multilingualism, and Language Technology; and the Department of
+Computer Science and Engineering), to be discussed with the programme coordinator.  These
+courses can including the following, subject to availability:
+ 
+• LT2326 Machine learning for statistical NLP: advanced, 7.5hec
+• LT2319 Dialogue systems 2, 7.5hec
+• LT2314 Language technology resources, 7.5hec
+• LT2318 Artificial intelligence: cognitive systems, 7.5hec
+• LT2311 Language technology project course, 7.5 hec
+Courses from other departments and universities can also be used towards some of the 30hec
+upon discussion and authorization of  the programme coordinator.
+ 
+Semester 4
+ 
+The masters project course is compulsory for graduation:
+ 
+• LT2402 Masters project (two years), 30 hec
+Students are to develop, write, and defend an independent thesis project under the supervision
+of qualified teaching staff.
+ 
+ 
+7. Transitional regulations
+ 
+This programme syllabus replaces the program syllabus for Master in Language Technology
+(One year or Two years), 60 - 120 credits (H2MLT). The syllabus abolishes the one-year (60 hec)
+variant of the programme.  Students who have been accepted under the programme syllabus for
+H2MLT and have chosen the one-year variant retain the possibility of completing it. Students
+who have chosen the two-year (120 hec) variant can continue their studies under this syllabus
+without any change in their programme's content or structure.
+ 
+ 
+8. Other information
+ 
+The study programme will be followed up and evaluated in accordance with the applicable 
+Policy för kvalitetssäkring och kvalitetsutveckling av utbildning vid Göteborgs universitet (Policy
+for the Quality assurance and Quality Development of Education at the University of
+Gothenburg).
+ 
+(H2LTG) Master in Language Technology, 120 credits / Språkteknologi, masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+4/4
