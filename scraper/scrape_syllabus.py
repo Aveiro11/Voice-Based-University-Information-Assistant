@@ -24,7 +24,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 
-import fitz  # PyMuPDF (the package is called "pymupdf", the import is "fitz")
+import pymupdf
 import requests
 from bs4 import BeautifulSoup
 
@@ -80,14 +80,12 @@ def find_syllabus_candidates(html: str, page_url: str) -> list[dict]:
         if ".pdf" not in href.lower() or "syllabus" not in text.lower():
             continue
 
-        # Is this link inside a "Curriculum" block? Look a few levels upward.
-        in_curriculum = False
-        for depth, parent in enumerate(a.parents):
-            if depth >= 4:
-                break
-            if "curriculum" in parent.get_text(" ", strip=True).lower()[:300]:
-                in_curriculum = True
-                break
+        # Each intake block has labels (Curriculum, Tuition, Application code).
+        # The closest label above the link tells us which part we're in.
+        label = a.find_previous(
+            string=re.compile(r"^\s*(Curriculum|Tuition|Application code)\s*$")
+        )
+        in_curriculum = bool(label) and label.strip() == "Curriculum"
 
         # The page repeats one block per intake. The nearest previous <h2>
         # is e.g. "Autumn 2026"; the nearest previous "GU-xxxxx" string is
@@ -172,7 +170,7 @@ def extract_text(pdf_path: Path) -> tuple[str, int]:
     The markers let us attach page numbers to chunks in Stage 2.
     """
     try:
-        doc = fitz.open(pdf_path)
+        doc = pymupdf.open(pdf_path)
     except Exception as err:
         raise ScraperError(f"PyMuPDF could not open the PDF: {err}") from err
 

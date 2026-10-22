@@ -10,24 +10,24 @@
       "link_text": "Syllabus (pdf)",
       "intake": "Autumn 2026",
       "application_code": "GU-24001",
-      "in_curriculum_section": false
+      "in_curriculum_section": true
     },
     {
       "url": "https://www.gu.se/sites/default/files/2024-02/H2LTG-en.pdf",
       "link_text": "Syllabus (pdf)",
       "intake": "Autumn 2026",
       "application_code": "GU-24002",
-      "in_curriculum_section": false
+      "in_curriculum_section": true
     },
     {
       "url": "https://www.gu.se/sites/default/files/2024-02/H2LTG-en.pdf",
       "link_text": "Syllabus (pdf)",
       "intake": "Autumn 2027",
       "application_code": "GU-24000",
-      "in_curriculum_section": false
+      "in_curriculum_section": true
     }
   ],
-  "scraped_at_utc": "2026-10-22T20:17:23.164167+00:00",
+  "scraped_at_utc": "2026-10-22T20:52:55.231974+00:00",
   "page_count": 4,
   "text_characters": 8745,
   "size_bytes": 178803,
