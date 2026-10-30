@@ -75,5 +75,5 @@ Rules:
       { role: "user", content: question },
     ],
   });
-  return res.choices[0].message.content?.trim() ?? "";
+    return (res.choices[0].message.content ?? "").replace(/[*_#`]/g, "").trim();
 }
