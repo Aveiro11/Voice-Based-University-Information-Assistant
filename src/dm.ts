@@ -6,10 +6,10 @@ import { retrieve, generateAnswer, type Chunk } from "./rag";
 const settings: Settings = {
   azureCredentials: {
     endpoint:
-      "https://northeurope.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
+      "https://swedencentral.api.cognitive.microsoft.com/sts/v1.0/issuetoken",
     key: KEY,
   },
-  azureRegion: "northeurope",
+  azureRegion: "swedencentral",
   asrDefaultCompleteTimeout: 0,
   asrDefaultNoInputTimeout: 8000,
   locale: "en-US",
