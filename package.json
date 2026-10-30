@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "ingest": "tsx scripts/ingest.ts",
     "search": "tsx scripts/search.ts",
-    "ask": "tsx scripts/ask.ts"
+    "ask": "tsx scripts/ask.ts",
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -25,11 +26,13 @@
     "@langchain/textsplitters": "^1.0.2",
     "@qdrant/js-client-rest": "^1.20.0",
     "openai": "^7.42.0",
-    "uuid": "^14.0.3"
+    "uuid": "^14.0.3",
+    "xstate": "^5.33.3"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
   }
 }
