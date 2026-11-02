@@ -7,6 +7,7 @@ if (!question) {
 }
 
 for (const c of await retrieve(question)) {
-  console.log(`\n[${c.score.toFixed(3)}] page ${c.page}, chunk ${c.chunkIndex}`);
+  const where = c.page ? `, page ${c.page}` : "";
+  console.log(`\n[${c.score.toFixed(3)}] ${c.programmeName} / ${c.sourceType}${where}`);
   console.log(c.text);
 }

@@ -11,28 +11,30 @@ const settings: Settings = {
   },
   azureRegion: "swedencentral",
   asrDefaultCompleteTimeout: 0,
-  asrDefaultNoInputTimeout: 8000,
+  asrDefaultNoInputTimeout: 6000,
   locale: "en-US",
   ttsDefaultVoice: "en-US-DavisNeural",
   bargeIn: false,
 };
 
+const GREETING =
+  "Hi! I can answer questions about the master's programmes in AI, computer science and technology at the University of Gothenburg. What would you like to know?";
+const SORRY = "Sorry, something went wrong on my side. Could you ask again?";
+
 type Ctx = {
   ssRef: any;
-  heard: string; // latest recognised utterance, filled in while listening
+  heard: string;
   question: string;
   chunks: Chunk[];
   answer: string;
-  misses: number; // consecutive turns with no speech
+  misses: number; // silent turns in a row
 };
 
-// HEARD is only for typing into the text box while debugging
 type Ev =
   | { type: "CLICK" }
-  | { type: "HEARD"; text: string }
+  | { type: "STOP" }
+  | { type: "HEARD"; text: string } // debug text box
   | SpeechStateExternalEvent;
-
-const SORRY = "Sorry, something went wrong on my side. Could you ask again?";
 
 export const dmMachine = setup({
   types: {} as { context: Ctx; events: Ev },
@@ -77,97 +79,117 @@ export const dmMachine = setup({
       entry: "prepare",
       on: { ASRTTS_READY: "WaitToStart" },
     },
-    // browsers only allow audio after a click, hence the button
+    // also where Stop and the goodbye end up; browsers need a click for audio
     WaitToStart: {
-      on: { CLICK: "Greeting" },
+      id: "idle",
+      on: { CLICK: "Active" },
     },
-    Greeting: {
-      entry: {
-        type: "speak",
-        params: {
-          utterance:
-            "Hi! Ask me anything about the Master in Language Technology programme.",
+    // everything while the assistant is running. STOP is handled once, here.
+    // Outside of Active nothing handles it, so a second click does nothing.
+    Active: {
+      initial: "Greeting",
+      on: { STOP: { target: "#idle", actions: assign({ misses: 0 }) } },
+      states: {
+        Greeting: {
+          entry: { type: "speak", params: { utterance: GREETING } },
+          on: { SPEAK_COMPLETE: "Listening" },
         },
-      },
-      on: { SPEAK_COMPLETE: "Listening" },
-    },
-    Listening: {
-      entry: [assign({ heard: "" }), "listen"],
-      on: {
-        RECOGNISED: {
-          actions: assign({
-            heard: ({ event }) => event.value[0]?.utterance ?? "",
-          }),
+        Listening: {
+          entry: [assign({ heard: "" }), "listen"],
+          on: {
+            RECOGNISED: {
+              actions: assign({
+                heard: ({ event }) => event.value[0]?.utterance ?? "",
+              }),
+            },
+            LISTEN_COMPLETE: [
+              {
+                guard: "heardSomething",
+                target: "Processing",
+                actions: assign({
+                  question: ({ context }) => context.heard.trim(),
+                  misses: 0,
+                }),
+              },
+              { guard: "tooManyMisses", target: "Goodbye" },
+              {
+                target: "NoInput",
+                actions: assign({ misses: ({ context }) => context.misses + 1 }),
+              },
+            ],
+            HEARD: {
+              target: "Processing",
+              actions: assign({ question: ({ event }) => event.text.trim() }),
+            },
+          },
         },
-        LISTEN_COMPLETE: [
-          {
-            guard: "heardSomething",
-            target: "Processing",
-            actions: assign({
-              question: ({ context }) => context.heard.trim(),
-              misses: 0,
+        // silence: first nudge, then a softer one. misses is already updated here
+        NoInput: {
+          entry: {
+            type: "speak",
+            params: ({ context }) => ({
+              utterance:
+                context.misses === 1
+                  ? "Do you have any other questions?"
+                  : "I'm still here. Just ask whenever you're ready.",
             }),
           },
-          {
-            guard: "tooManyMisses",
-            target: "WaitToStart",
-            actions: assign({ misses: 0 }),
+          on: { SPEAK_COMPLETE: "Listening" },
+        },
+        Goodbye: {
+          entry: {
+            type: "speak",
+            params: {
+              utterance:
+                "I'll stop listening now. Press start when you want to continue.",
+            },
           },
-          {
-            target: "NoInput",
-            actions: assign({ misses: ({ context }) => context.misses + 1 }),
+          on: {
+            SPEAK_COMPLETE: {
+              target: "#idle",
+              actions: assign({ misses: 0 }),
+            },
           },
-        ],
-        HEARD: {
-          target: "Processing",
-          actions: assign({ question: ({ event }) => event.text.trim() }),
+        },
+        Processing: {
+          always: [
+            { guard: "emptyQuestion", target: "Listening" },
+            { target: "Retrieving" },
+          ],
+        },
+        Retrieving: {
+          invoke: {
+            src: "retrieve",
+            input: ({ context }) => ({ question: context.question }),
+            onDone: {
+              target: "GeneratingAnswer",
+              actions: assign({ chunks: ({ event }) => event.output }),
+            },
+            onError: { target: "Speaking", actions: ["logError", "useSorry"] },
+          },
+        },
+        GeneratingAnswer: {
+          invoke: {
+            src: "generate",
+            input: ({ context }) => ({
+              question: context.question,
+              chunks: context.chunks,
+            }),
+            onDone: {
+              target: "Speaking",
+              actions: assign({ answer: ({ event }) => event.output }),
+            },
+            onError: { target: "Speaking", actions: ["logError", "useSorry"] },
+          },
+        },
+        Speaking: {
+          entry: {
+            type: "speak",
+            params: ({ context }) => ({ utterance: context.answer }),
+          },
+          on: { SPEAK_COMPLETE: "Listening" },
         },
       },
-    },
-    NoInput: {
-      entry: {
-        type: "speak",
-        params: { utterance: "Sorry, I didn't catch that." },
-      },
-      on: { SPEAK_COMPLETE: "Listening" },
-    },
-    Processing: {
-      always: [
-        { guard: "emptyQuestion", target: "Listening" },
-        { target: "Retrieving" },
-      ],
-    },
-    Retrieving: {
-      invoke: {
-        src: "retrieve",
-        input: ({ context }) => ({ question: context.question }),
-        onDone: {
-          target: "GeneratingAnswer",
-          actions: assign({ chunks: ({ event }) => event.output }),
-        },
-        onError: { target: "Speaking", actions: ["logError", "useSorry"] },
-      },
-    },
-    GeneratingAnswer: {
-      invoke: {
-        src: "generate",
-        input: ({ context }) => ({
-          question: context.question,
-          chunks: context.chunks,
-        }),
-        onDone: {
-          target: "Speaking",
-          actions: assign({ answer: ({ event }) => event.output }),
-        },
-        onError: { target: "Speaking", actions: ["logError", "useSorry"] },
-      },
-    },
-    Speaking: {
-      entry: {
-        type: "speak",
-        params: ({ context }) => ({ utterance: context.answer }),
-      },
-      on: { SPEAK_COMPLETE: "Listening" },
     },
   },
 });

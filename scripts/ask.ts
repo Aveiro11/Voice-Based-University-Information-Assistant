@@ -7,5 +7,5 @@ if (!question) {
 }
 
 const chunks = await retrieve(question);
-console.log("retrieved:", chunks.map((c) => `p${c.page}:${c.score.toFixed(2)}`).join("  "));
+console.log("retrieved:", chunks.map((c) => `${c.programmeCode}:${c.score.toFixed(2)}`).join("  "));
 console.log("\n" + (await generateAnswer(question, chunks)));

@@ -6,6 +6,7 @@ document.querySelector("#app")!.innerHTML = `
   <h1>Uni assistant</h1>
   <div class="card">
     <button id="start" type="button">...</button>
+    <button id="stop" type="button" disabled>Stop</button>
   </div>
   <div class="card">
     <input id="q" type="text" size="50" placeholder="(debug) type a question..." />
@@ -19,34 +20,53 @@ document.querySelector("#app")!.innerHTML = `
 
 const input = document.querySelector<HTMLInputElement>("#q")!;
 const startBtn = document.querySelector<HTMLButtonElement>("#start")!;
+const stopBtn = document.querySelector<HTMLButtonElement>("#stop")!;
 const questionEl = document.querySelector("#question")!;
 const answerEl = document.querySelector("#answer")!;
 const sourcesEl = document.querySelector("#sources")!;
 const logEl = document.querySelector("#log")!;
 
+// {Active: "Listening"} -> "Active.Listening"
+const flat = (v: unknown): string =>
+  typeof v === "string"
+    ? v
+    : Object.entries(v as object)
+        .map(([k, c]) => `${k}.${flat(c)}`)
+        .join(",");
+
 const actor = createActor(dmMachine);
 
-let lastState = "";
+let lastPath = "";
 actor.subscribe((snap) => {
-  const state = String(snap.value);
-  if (state === lastState) return;
-  lastState = state;
-  logEl.textContent += `${state}\n`;
-  console.log("[state]", state, snap.context);
-  if (state === "Retrieving") {
+  const active = snap.matches("Active");
+  stopBtn.disabled = !active;
+  startBtn.disabled = active;
+
+  const path = flat(snap.value);
+  if (path === lastPath) return;
+  lastPath = path;
+  const leaf = path.split(".").pop();
+  logEl.textContent += `${path}\n`;
+  console.log("[state]", path, snap.context);
+
+  if (leaf === "Retrieving") {
     questionEl.textContent = `You: ${snap.context.question}`;
     answerEl.textContent = "";
     sourcesEl.textContent = "";
   }
-  if (state === "Speaking") {
+  if (leaf === "Speaking") {
     answerEl.textContent = snap.context.answer;
     sourcesEl.textContent =
-      "sources: " + snap.context.chunks.map((c) => `p${c.page}`).join(", ");
+      "sources: " +
+      [...new Set(snap.context.chunks.map((c) => c.programmeName))].join(", ");
   }
 });
 actor.start();
 
 startBtn.addEventListener("click", () => actor.send({ type: "CLICK" }));
+stopBtn.addEventListener("click", () => actor.send({ type: "STOP" }));
+
+// the label on the start button comes from speechstate itself
 actor.getSnapshot().context.ssRef.subscribe((snap: any) => {
   const meta: any = Object.values(snap.getMeta())[0];
   if (meta?.view) startBtn.innerHTML = meta.view;

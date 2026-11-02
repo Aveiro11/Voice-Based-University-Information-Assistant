@@ -1,0 +1,38 @@
+{
+  "name": "Information Technology and Learning",
+  "url": "https://www.gu.se/en/study-gothenburg/international-masters-programme-in-information-technology-and-learning-s2iol",
+  "code": "S2IOL",
+  "syllabus_format": "html",
+  "syllabus_url": "https://www.gu.se/en/syllabus/5c3875a8-2dcf-11f1-9946-8eadeb4148f1",
+  "syllabus_pages": null,
+  "syllabus_chars": 8285,
+  "selection_reason": "2 different syllabus links, took the latest intake (Autumn 2027)",
+  "all_syllabus_links": [
+    {
+      "url": "https://www.gu.se/en/study-gothenburg/international-masters-programme-in-information-technology-and-learning-s2iol/syllabus/ed94f0b9-4c24-11f0-b2d8-c1e681b5439a",
+      "format": "html",
+      "intake": "Autumn 2026",
+      "application_code": "GU-93003"
+    },
+    {
+      "url": "https://www.gu.se/en/study-gothenburg/international-masters-programme-in-information-technology-and-learning-s2iol/syllabus/ed94f0b9-4c24-11f0-b2d8-c1e681b5439a",
+      "format": "html",
+      "intake": "Autumn 2026",
+      "application_code": "GU-93004"
+    },
+    {
+      "url": "https://www.gu.se/en/syllabus/5c3875a8-2dcf-11f1-9946-8eadeb4148f1",
+      "format": "html",
+      "intake": "Autumn 2027",
+      "application_code": "GU-93000"
+    },
+    {
+      "url": "https://www.gu.se/en/syllabus/5c3875a8-2dcf-11f1-9946-8eadeb4148f1",
+      "format": "html",
+      "intake": "Autumn 2027",
+      "application_code": "GU-93001"
+    }
+  ],
+  "programme_page_chars": 9062,
+  "scraped_at_utc": "2026-11-02T22:26:36.463513+00:00"
+}

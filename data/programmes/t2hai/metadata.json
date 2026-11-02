@@ -1,0 +1,32 @@
+{
+  "name": "Human-centered Artificial Intelligence",
+  "url": "https://www.gu.se/en/study-gothenburg/human-centered-artificial-intelligence-masters-programme-t2hai",
+  "code": "T2HAI",
+  "syllabus_format": "pdf",
+  "syllabus_url": "https://www.gu.se/sites/default/files/2023-02/GU%202023-154_T2HAI_beslutad_UP_eng_230207.pdf",
+  "syllabus_pages": 5,
+  "syllabus_chars": 13303,
+  "selection_reason": "only one distinct syllabus link",
+  "all_syllabus_links": [
+    {
+      "url": "https://www.gu.se/sites/default/files/2023-02/GU%202023-154_T2HAI_beslutad_UP_eng_230207.pdf",
+      "format": "pdf",
+      "intake": "Autumn 2026",
+      "application_code": "GU-87001"
+    },
+    {
+      "url": "https://www.gu.se/sites/default/files/2023-02/GU%202023-154_T2HAI_beslutad_UP_eng_230207.pdf",
+      "format": "pdf",
+      "intake": "Autumn 2026",
+      "application_code": "GU-87011"
+    },
+    {
+      "url": "https://www.gu.se/sites/default/files/2023-02/GU%202023-154_T2HAI_beslutad_UP_eng_230207.pdf",
+      "format": "pdf",
+      "intake": "Autumn 2027",
+      "application_code": "GU-87001"
+    }
+  ],
+  "programme_page_chars": 8721,
+  "scraped_at_utc": "2026-11-02T22:26:35.218685+00:00"
+}

@@ -1,0 +1,286 @@
+=== PAGE 1 ===
+Programme Syllabus  Reg.no. GU
+2023/154
+University of Gothenburg
+IT FACULTY
+Human-centered Artificial Intelligence Master's
+Programme, 120 credits
+Human-centered Artificial Intelligence masterprogram, 120 högskolepoäng
+ 
+Programme code: T2HAI
+ 
+Second cycle / Avancerad nivå
+ 
+ 
+ 
+1. Confirmation
+ 
+This programme syllabus was confirmed by the IT Faculty Board on 12-09-2022 (GU
+2022/1389) and was last revised on 07-02-2023 (GU 2023/154) to be valid from 28-08-2023,
+Autumn semester 2023.
+ 
+Responsible Department/equivalent: Department of Applied Information Technology
+ 
+ 
+2. Purpose
+ 
+Artificial intelligence (AI) creates completely new conditions for business, public sector, private
+individuals, and society at large. AI means both new opportunities and challenges for the
+transformation of society in all aspects. Existing structures and business models are being
+challenged and fundamentally changed. Global societal challenges regarding sustainability and
+society's sustainable transition are affected. The difference between interaction with humans and
+with AI is increasingly blurred, as personal responses become digital interactions with artificially
+intelligent agents. In order to responsibly realize the potential of AI for the ongoing
+transformation of society, there is need for knowledge of AI in relation to society, in all sectors
+of society.
+ 
+The overall purpose of the programme is to provide students with an in-depth understanding of
+how AI is transforming society and the ability to take leading roles in this transformation. The
+programme provides students with a broad theoretical foundation for understanding problems,
+methods and techniques for analyzing the implications of AI, as well as practical skills for
+managing AI-driven change in complex environments. Central to the programme is to be close
+to the research front in the areas included in the programme, and to work closely with industry,
+the public sector and civil society.
+ 
+The programme's pedagogy is based on creating a student-centered learning environment that
+encourages participation. The education programme strives for a mixed student group and
+therefore welcomes students with a bachelor's degree from a number of different fields, including
+(T2HAI) Human-centered Artificial Intelligence Master's Programme, 120 credits / Human-centered Artificial
+Intelligence masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+
+=== PAGE 2 ===
+cognitive science, computer science, media studies, information technology, economics,
+industrial economics and behavioral science.
+ 
+The programme prepares students for professional roles that arise as AI permeates society to a
+greater extent, for example AI strategists, UX designers with specialization in AI, AI Ethics
+Specialist. The programme also prepares students for further studies within the university.
+ 
+ 
+3. Entry requirements
+ 
+Bachelor’s degree 180 credits including an independent project (degree project) of at least 15
+credits or equivalent.
+ 
+7.5 credits programming in a general programming language, 7.5 credits in artificial intelligence
+or machine learning, and 7.5 credits in human-computer interaction or human-technology
+interaction.
+ 
+Applicants must prove their knowledge of English: English 6/English B from Swedish Upper
+Secondary School or the equivalent level of an internationally recognized test, for example
+TOEFL, IELTS.
+ 
+  
+Specific entry requirements for admission to a course within the study programme  
+ 
+Within the study programme there can be specific entry requirements for admission to
+individual courses. These specific entry requirements are documented in each course syllabus
+and state which entry requirements are necessary to be registered on a course within the study
+programme. 
+  
+Selection 
+ 
+Selection is according to the Higher Education Ordinance and the University of Gothenburg
+admission regulations for education on first and second cycle. 
+ 
+ 
+4. Higher education qualification and main field of study
+ 
+This programme leads to a Degree of Master of Science (120 credits) with a major in Human-
+centered Artificial Intelligence (Filosofie masterexamen med huvudområdet Människocentrerad
+artificiell intelligens).
+ 
+ 
+5. Outcomes
+ 
+General outcomes for Degree of Master (120 credits)
+ 
+Knowledge and understanding
+ 
+For a Degree of Master (120 credits) the student shall
+ 
+• demonstrate knowledge and understanding in the main field of study, including both broad
+knowledge of the field and a considerable degree of specialised knowledge in certain areas
+of the field as well as insight into current research and development work, and
+• demonstrate specialised methodological knowledge in the main field of study.
+(T2HAI) Human-centered Artificial Intelligence Master's Programme, 120 credits / Human-centered Artificial
+Intelligence masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+2/5
+
+=== PAGE 3 ===
+Competence and skills
+ 
+For a Degree of Master (120 credits) the student shall
+ 
+• demonstrate the ability to critically and systematically integrate knowledge and analyse,
+assess and deal with complex phenomena, issues and situations even with limited
+information
+• demonstrate the ability to identify and formulate issues critically, autonomously and
+creatively as well as to plan and, using appropriate methods, undertake advanced tasks
+within predetermined time frames and so contribute to the formation of knowledge as well
+as the ability to evaluate this work
+• demonstrate the ability in speech and writing both nationally and internationally to clearly
+report and discuss his or her conclusions and the knowledge and arguments on which they
+are based in dialogue with different audiences, and
+• demonstrate the skills required for participation in research and development work or
+autonomous employment in some other qualified capacity.
+  
+Judgement and approach
+ 
+For a Degree of Master (120 credits) the student shall
+ 
+• demonstrate the ability to make assessments in the main field of study informed by relevant
+disciplinary, social and ethical issues and also to demonstrate awareness of ethical aspects
+of research and development work
+• demonstrate insight into the possibilities and limitations of research, its role in society and
+the responsibility of the individual for how it is used, and
+• demonstrate the ability to identify the personal need for further knowledge and take
+responsibility for his or her ongoing learning.
+ 
+Local outcomes
+ 
+ 
+Knowledge and understanding
+ 
+For a Degree of Master of Science (120 credits) with a major in Human-centered Artificial
+Intelligence the student shall
+ 
+• show in-depth knowledge of and the ability to apply theories related to artificial intelligence
+in the areas of behavioral science, human-computer interaction, communication,
+informatics, and ethics, and
+• show ability to identify current challenges in research, relevant for empirical studies in the
+main field of study.
+ 
+Competence and skills
+ 
+For a Degree of Master of Science (120 credits) with a major in Human-centered Artificial
+Intelligence the student shall
+ 
+• demonstrate ability to plan for the integration of AI in various social and organisational
+contexts, 
+• demonstrate ability to design and evaluate human-centered AI implementations.
+ 
+(T2HAI) Human-centered Artificial Intelligence Master's Programme, 120 credits / Human-centered Artificial
+Intelligence masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+3/5
+
+=== PAGE 4 ===
+Judgement and approach
+ 
+For a Degree of Master of Science (120 credits) with a major in Human-centered Artificial
+Intelligence the student shall
+ 
+• demonstrate ability to critically evaluate assumptions, principles, strengths and weaknesses
+of central theories and frameworks in human-centered AI, 
+• demonstrate ability to compare and contrast AI innovation and application, 
+• demonstrate ability to assess and argue for choices and combinations of methods for
+organisational development and AI transformation that take ethics and sustainability into
+consideration. 
+ 
+Sustainability labelling
+ 
+The programme is sustainability-related, which means that at least one of the outcomes clearly
+shows that the programme content meets at least one of the University of Gothenburg’s
+confirmed sustainability criteria.
+ 
+ 
+6. Content and structure
+ 
+The programme departs from the assumption that the development and integration of AI in
+everyday practices requires deep understanding of the relationship between the technology and
+individuals, groups, organisations, societies, and cultures. It prepares students to take an active
+role in designing, evaluating and researching how applications of AI are developed,
+implemented and used. The courses in the first year of the programme give both introductory
+and in-depth knowledge in the central theories in the field, as well as methods for research and
+development work.
+ 
+The first year introduces a wide range of concepts relevant to human-centered AI and provides
+students with opportunities to develop practical skills for designing experiences with AI,
+evaluating its use and defining strategies for its implementation. Throughout the courses of the
+first year, students work with a variety of research methods that are useful for both
+career designing, implementing and evaluating applications of AI, and for the thesis project that
+is the culmination of the programme. The second year provides students with the opportunity to
+choose from a range of elective courses or take a semester abroad at a partner university before
+completing a thesis. The thesis consists of an independent degree project, allowing students to
+deeply engage in a specific research question related to the main field of study. 
+ 
+The education is given at full time. Courses are arranged for progression. In that vein, they
+develop topic-specific knowledge, while concurrently contributing to the advancement of general
+skills and abilities in the main field of study. The education involves lectures, practical
+assignments, and extensive individual reading. However, to produce a student-centred learning
+environment it frequently involves interactive seminars, case studies, supervision, and projects,
+where students apply and deepen their knowledge. The literature is in English, as well as all
+teaching and communication. 
+ 
+Study process
+ 
+The programme consists of courses in the area of human-centered AI and related subjects. The
+programme includes a total of 120 credits. The first two semesters contribute 60 credits,
+distributed across four compulsory courses. The third semester consists of four recommended
+(T2HAI) Human-centered Artificial Intelligence Master's Programme, 120 credits / Human-centered Artificial
+Intelligence masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+4/5
+
+=== PAGE 5 ===
+courses, contributing 30 credits. As an alternative to recommended courses, students may
+broaden their education through optional courses offered by University of Gothenburg or other
+higher education institutions. The programme is concluded by a 30 credit independent degree
+project. 
+ 
+The study programme consists of the following compulsory courses:  
+ 
+• Introduction to Human-centered AI, 15 credits
+• Interaction Design and AI, 15 credits
+• Fairness, Accountability and Transparency in AI, 15 credits
+• AI and Human Thinking, 15 credits
+• Master’s Thesis, 30 credits 
+ 
+The study programme also includes the following recommended elective courses:  
+ 
+• AI and Persuasion in Digital Communication, 7,5 credits
+• Digital Innovation in Sports, 7,5 credits
+• Data and Society, 7,5 credits
+• Project Course, 7,5 credits
+ 
+7. Guaranteed admission 
+ 
+Students who follow the study programme at the prescribed rate have general guaranteed
+admission for all courses stated in the syllabus.   
+ 
+‘General guaranteed admission’ means that the students admitted to the study programme have
+guaranteed admission to all of the compulsory and recommended courses in the programme
+syllabus provided that specific entry requirements are fulfilled and the student
+applies to the course within the study programme within the prescribed application period.  
+ 
+For optional courses outside the study programme local admission regulations
+are valid and there is no guaranteed admission.  
+ 
+ 
+8. Other information
+ 
+Credit transfer of former education 
+ 
+In some cases, the student has the right to be given credit for former higher education according
+to the legislative regulations of the Higher Education Ordinance.  
+ 
+  
+Evaluation 
+ 
+The courses of the study programme are evaluated according to each course syllabus. The result
+will be used for planning and implementation of upcoming courses. A summary is given to
+students at the start of the courses.   
+ 
+The study programme will be followed up and evaluated in accordance with the applicable 
+Policy för kvalitetssäkring och kvalitetsutveckling av utbildning vid Göteborgs universitet (Policy
+for the Quality assurance and Quality Development of Education at the University of
+Gothenburg).
+ 
+  
+(T2HAI) Human-centered Artificial Intelligence Master's Programme, 120 credits / Human-centered Artificial
+Intelligence masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+5/5
