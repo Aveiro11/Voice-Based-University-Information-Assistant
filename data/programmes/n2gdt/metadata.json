@@ -1,0 +1,38 @@
+{
+  "name": "Game Design and Technology",
+  "url": "https://www.gu.se/en/study-gothenburg/game-design-technology-masters-programme-n2gdt",
+  "code": "N2GDT",
+  "syllabus_format": "pdf",
+  "syllabus_url": "https://www.gu.se/sites/default/files/2022-09/GU2022-2361%20beslutad%20UP%20N2GDT%20eng%20220913.pdf",
+  "syllabus_pages": 6,
+  "syllabus_chars": 14179,
+  "selection_reason": "only one distinct syllabus link",
+  "all_syllabus_links": [
+    {
+      "url": "https://www.gu.se/sites/default/files/2022-09/GU2022-2361%20beslutad%20UP%20N2GDT%20eng%20220913.pdf",
+      "format": "pdf",
+      "intake": "Autumn 2026",
+      "application_code": "GU-86006"
+    },
+    {
+      "url": "https://www.gu.se/sites/default/files/2022-09/GU2022-2361%20beslutad%20UP%20N2GDT%20eng%20220913.pdf",
+      "format": "pdf",
+      "intake": "Autumn 2026",
+      "application_code": "GU-86005"
+    },
+    {
+      "url": "https://www.gu.se/sites/default/files/2022-09/GU2022-2361%20beslutad%20UP%20N2GDT%20eng%20220913.pdf",
+      "format": "pdf",
+      "intake": "Autumn 2027",
+      "application_code": "GU-86003"
+    },
+    {
+      "url": "https://www.gu.se/sites/default/files/2022-09/GU2022-2361%20beslutad%20UP%20N2GDT%20eng%20220913.pdf",
+      "format": "pdf",
+      "intake": "Autumn 2027",
+      "application_code": "GU-86002"
+    }
+  ],
+  "programme_page_chars": 10933,
+  "scraped_at_utc": "2026-11-02T22:26:33.983106+00:00"
+}

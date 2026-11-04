@@ -1,0 +1,86 @@
+# International Master's Programme in Information Technology and Learning
+## Internationellt masterprogram i informationsteknologi och lärande
+Program
+S2IOL
+120 credits  (ECTS)
+Go to
+International Master's Programme in Information Technology and Learning
+## About the Syllabus
+Valid from
+Autumn semester 2027
+Registration number
+GU 2026/917
+Date of entry into force
+2026-10-01
+Decision date
+2026-05-18
+Valid from semester
+Fall semester 2027
+Decision maker
+Faculty Board of Education
+Collaborating department
+Department of Applied Information Technology
+Starts at first-cycle level and ends at second-cycle level
+No
+## Purpose
+The aim of the programme is to prepare the student for analysis, development and research concerning the use of information technologies for learning and education in organisations, companies and educational institutions. In order to achieve this, the programme provides theoretical tools and perspectives for anlysing learning and communication with digital tools; practical traning in methods for analysis, design and academic research on learning and communication in digital environments; experiences of collaborative project work; and, theuse of digital presentation formats.
+## Entry requirements
+To be admitted to the programme, the following is required:
+A Bachelor’s degree with a minimum of 180 higher education credits or an equivalent degree. Furthermore, the student must demonstrate proficiency in English equivalent to English 6 or English level 2 from Swedish upper secondary level, or through an internationally recognized English test, such as TOEFL or IELTS, with corresponding results.
+## Degree and main field of study
+Master of Science with a major in Education with Specialization in Learning, Communication and Information Technology and
+Master of Science with a major in Information Technology and learning
+## Content
+The international Master programme in Information Technology and Learning (120 credits) isa two-year, full-time programme. The compulsory courses distributed across two different main fields of study: Education with Specialization in Learning, Communication and Information Technology, and Information technology and learning.
+The mandatory courses in the programme are:
+Education with Specialization in Learning, Communication and Information Technology:
+Technology, knowledge and learning: an introduction, 15 HEC
+Literacies in a digital world, 15 HEC
+Information technology and learning:
+Applied research methods and design for information technologies and learning, 15 HEC
+Digital tools for communication and learning, 15 HEC
+Belongs to both main fields
+Master's Thesis in IT and Learning, 30 HEC
+Courses with code TIA are within the main field of Information Technology and Learning. Courses with code PDA are within the main field of Pedagogy with a focus on learning, communication, and information technology. The exception is the mandatory degree project course of 30 credits, which lies within both main fields.
+All programme students are guaranteed aplace in two electable courses (15 HEC each) even outside the programme but are also able to select other courses of their own choice that correspond to the programme.
+On completion of the programme, the student gets to decide the preferred main field of study for the MA degree.
+The programme is organised in seven separate courses: five mandatory, and two electable which can be exchanged with other course as described above.
+Year 1:
+Technology, knowledge and learning: an introduction, 15 HEC
+Literacies in a digital world, 15 HEC
+Applied research methods and design for information technologies and learning, 15 HEC
+Digital tools for communication and learning, 15 HEC
+Year 2:
+Electable course 15 HEC (alternatively other smaller optional courses)
+Electable course, 15 HEC (alternatively other smaller optional courses)
+Master’s thesis in IT and learning, 30 HEC
+## Objectives
+Second-cycle study programmes shall involve the acquisition of specialist knowledge,competence and skills in relation to first-cycle courses and study programmes, and in addition to the requirements for first-cycle courses and study programmes, education at second-cycle shall:
+further develop the ability of students to integrate and make autonomous use of their knowledge,
+develop the students' ability to deal with complex phenomena, issues and situations, and
+develop the students' potential for professional activities that demand considerable
+autonomy, or for research and development work.
+General outcomes for Degree of Master (120 credits)
+Knowledge and understanding
+For a Degree of Master (120 credits) the student shall
+demonstrate knowledge and understanding in the main field of study, including both broadknowledge of the field and a considerable degree of specialised knowledge in certain areas of the field as well as insight into current research and development work, and
+demonstrate specialised methodological knowledge in the main field of study
+Competence and skills
+For a Degree of Master (120 credits) the student shall
+demonstrate the ability to critically and systematically integrate knowledge and analyse,assess and deal with complex phenomena, issues and situations even with limited information
+demonstrate the ability to identify and formulate issues critically, autonomously and creatively as well as to plan and, using appropriate methods, undertake advanced tasks within predetermined time frames and so contribute to the formation of knowledge as well as the ability to evaluate this work
+demonstrate the ability in speech and writing both nationally and internationally to clearly report and discuss his or her conclusions and the knowledge and arguments on which they are based in dialogue with different audiences, and
+demonstrate the skills required for participation in research and development work or autonomous employment in some other qualified capacity.
+Judgement and approach
+For a Degree of Master (120 credits) the student shall
+demonstrate the ability to make assessments in the main field of study informed by relevant disciplinary, social and ethical issues and also to
+demonstrate awareness of ethical aspects of research and development work demonstrate insight into the possibilities and limitations of research, its role in society and the responsibility of the individual for how it is used, and
+demonstrate the ability to identify the personal need for further knowledge and take responsibility for his or her ongoing learning.
+## Sustainability labelling
+No sustainability labelling.
+## Other regulations
+Accreditation of previous studies: Possibilities regarding the accreditation of previous studiesas part of the International Master’s Programme in Information Technology and Learning isdecided by the Department of Education, Communication and Learning. The study programme will be followed up and evaluated in accordance with the applicable Policy för kvalitetssäkring och kvalitetsutveckling av utbildning vid Göteborgs universitet (Policy for the Quality assurance and Quality Development of Education at the University of Gothenburg). Evaluation is part of the courses each term within the whole programme and will function as aguide for the on-going courses as well as for the development of future courses. In connection with the final Master thesis, the entire programme will be evaluated and results discussed with the students. The results of the evaluations will be communicated to the students in the course as well as to prospective students who will attend the next course. The language of instruction is English.
+The study programme will be followed up and evaluated in accordance with the applicable Policy for the Quality Assurance and Continuous Quality Improvement of Education at the University of Gothenburg
+(Policy för kvalitetssäkring och kvalitetsutveckling av utbildning vid Göteborgs universitet).
+## Guaranteed admission
+Students enrolled in the programme are guaranteed a place in the programme coursesprovided by the Department of Education, Communication and Learning, and the Departmentof Applied IT. While all students are guaruanteed a place on the electable courses provided bythese departments in year two, there is however no guarantee that students’ first choices can be met.

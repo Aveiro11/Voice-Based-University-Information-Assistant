@@ -1,0 +1,190 @@
+# Logic, Master's Programme
+Master’s programme
+H2LOG
+2 years
+120 credits (ECTS)
+Offered by the
+Department of Philosophy, Linguistics, Theory of Science
+at the
+Faculty of Humanities
+## Autumn 2026
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+31 Aug 2026
+-
+4 Jun 2028
+Application period
+16 Oct 2025
+-
+15 Jan 2026
+Application code
+GU-24000
+Curriculum
+Syllabus
+Tuition
+Full education cost: 308 000 SEK
+First payment: 77 000 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Application closed
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+31 Aug 2026
+-
+4 Jun 2028
+Application period
+16 Mar 2026
+-
+15 Apr 2026
+Application code
+GU-24155
+Curriculum
+Syllabus
+Tuition
+Full education cost: 308 000 SEK
+First payment: 77 000 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Application closed
+## Autumn 2027
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+30 Aug 2027
+-
+3 Jun 2029
+Application period
+16 Oct 2026
+-
+15 Jan 2027
+Application code
+GU-24001
+Curriculum
+Syllabus
+Tuition
+Full education cost: 312 000 SEK
+First payment: 78 000 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Apply on University
+Admissions
+## Summary
+This statement is false; or is it? What makes a paradox paradoxical but a mathematical proof acceptable? What does it mean for a program to be bug-free? Logic is the study of all these questions, and of reasoning in general.
+You will be prepared to follow both academic career paths and employment in a diverse array of fields, including software engineering and computational linguistics. You will participate in interdisciplinary collaboration within a dynamic research community.
+## Programme coordinator
+Ivan Di
+Liberti
+Associate Senior Lecturer
+ivan.di.liberti@gu.se
+## Study counselling
+For more information about courses or the master's program
+mil-info@flov.gu.se
+## About
+Do you see yourself thriving in an environment that fuses striking mathematical methodology and profound philosophical insights?  Logic has developed beyond the traditional definition as the study of formal aspects of valid reasoning to be more widely applicable not only in the neighbouring disciplines of philosophy, mathematics, linguistics, and computer science, but also in industry and engineering. As a student of the programme, you will get a thorough education in the core topics in logic and will have the opportunity to explore applications in diverse areas including natural language processing, database design, and artificial intelligence. Although the programme is in this sense multidisciplinary, the core components are in mathematical logic.
+Structure of the programme
+(a page on the Student portal)
+### Unique interdisciplinary opportunities
+The University of Gothenburg is one of only a few universities that offer a Master's programme that embraces the multifaceted interdisciplinary components of logic, and these substantial interdisciplinary possibilities are unique within Sweden. You will be exposed to the various ways research and education in mathematical logic is linked to philosophy, linguistics, mathematics, and computer science. Recommended course packages include courses taught at partner departments, such as Mathematics and Computer Science and Engineering, and from our own Department of Philosophy, Linguistics, and Theory of Science.
+### Emphasis on current research and collaboration
+Our teachers are active researchers, and many are internationally recognized, well-established authorities within their sub-disciplines. The elective courses you will choose from are designed with the specializations of the involved teachers in mind, making the connection with research very explicit. The research seminar in Logic, a biweekly series with a high level of international guests, brings researchers and students together for discussions about logic. There is a close relationship between teachers, students, and the dynamic research environment.
+### A rich academic experience
+The Master's programme in Logic is two years of full-time study with a balanced combination of rigor and flexibility. You can expect a significant amount of hands-on, instructor-led skills training in addition to the theoretical lectures and seminars, computer laboratory work, and possibilities to individualize your study path. You will learn about the core areas of mathematical logic, including model theory, addressing the relationship between language and the objects that language describes; computability theory, investigating algorithms and the complexity of computational problems; proof theory, focusing on the structure of mathematical proofs and what it takes to prove the consistency of different theories; set theory, the general abstract study of one of the most fundamental concepts of mathematics and other formal sciences.
+Find more information in the programme syllabus or at the Canvas acitivity.
+Link to the Canvas page
+.
+Student intervju with Luca
+“I was very surprised by how much active research in Logic is going on here in the department.”
+Luca from Germany
+## Programme structure and content
+The programme is structured to guide students from a broad foundation in logic towards increasing specialisation and independent research. During the first two semesters, students take eight mandatory courses providing core knowledge:
+Logic and Completeness (LOG112)
+Models of Computation (LOG115)
+Set Theory (LOG121)
+Modal Logic (LOG131)
+Proof Theory (LOG221)
+Expressibility and Incompleteness (LOG215)
+Philosophy of Logic (LOG250)
+Model Theory (LOG211)
+The third semester allows you to tailor your education through three elective courses and the mandatory course Research Skills in Logic (LOG311), which introduces academic writing, presentation, and research planning.
+Electives are offered in applied and theoretical logic, with recent courses including Advanced Set Theory (LOG270), Advanced Topics in Proof Theory (LOG365), Lambda Calculus, Types and Foundations of Programming Languages (LOG370), Logic, Games and Automata (LOG290), Category Theory (LOG350), Functorial Semantics (LOG390), Topos Theory (LOG380), History of Logic (LOG280), and Philosophy of Mathematics (LOG360).
+Specialisation in Logic courses (LOG230, LOG240, LOG320, LOG330, and LOG340) and individually organised reading courses also make it possible to explore advanced topics and prepare for thesis work.
+You are also encouraged to choose relevant courses taught at partner departments, for example Computational Semantics (LT2813), Artificial Intelligence: Cognitive Systems (LT2318), Topology (MMA100), Discrete Mathematics (MMG610), Algebraic Structures (MMG500), Functional Programming (DIT143), and Types for Programs and Proofs (DIT235).
+The fourth semester is devoted entirely to the 30-credit Master’s Thesis (LOG410/LOG420), an in-depth exploration of a topic of your choice.
+More information about programme structure and content
+Play video: Logic, Master's Programme
+Navigate to video: Logic, Master's Programme
+Video (1:47)
+Logic, Master's Programme
+## Who should apply?
+Are you a mathematician interested in philosophical questions like: What is a proof? Can we be sure mathematics is true?
+Are you a philosopher or linguist with an aptitude for mathematical thinking and interest in formal systems for modelling arguments and natural languages?
+Are you a computer scientist who wants to explore foundational questions or to apply logic in artificial intelligence applications, automated systems for knowledge, or web technologies?
+Whether your educational background is specialized or interdisciplinary, if you have the courage to follow your curiosity, apply to the Master's programme in Logic!
+## Prerequisites and selection
+### Entry requirements
+Admission to the programme requires, besides fulfilling basic entry requirements, successful completion of
+- at least 60 credits in total in the subject areas mathematics, logic, computer science or formal linguistics, or
+- at least 90 credits in philosophy or linguistics, and additionally, or as part of the 90 credits, at least 30 credits in total in the subject areas mathematics, logic, computer science or formal linguistics,
+or equivalent knowledge.
+Applicants must prove their knowledge of English: English 6/English B from Swedish Upper Secondary School or an equivalent level, for example from an internationally recognized test, like TOEFL or IELTS.
+### Special instructions for application
+Fill in the programme-specific
+Application summary sheet
+and submit it along with the rest of your supporting documents.
+Download the
+Application Summary Sheet
+.
+### Selection
+The selection is based on (i) a Personal Letter, and (ii) grades from previous relevant higher education. The Personal Letter should explain clearly the motivation for choosing this programme. The letter should introduce the the applicant both professionally and personally. The document must be entirely unique, i.e., it must not contain parts copied from any other source (with the exception of explicit quotations). Upload your personal letter to
+www.universityadmissions.se
+before the admission round deadline.
+## After graduation
+Graduates of the programme receive the degree Master of Arts with a major in Logic.
+The versatility of the master’s programme in Logic prepares you to follow both academic career paths and employment in a diverse array of fields.
+Graduates with a degree in logic report jobs as consultants, software engineers, programmers, and teachers, along with a significant amount who continue with PhD programmes in Logic, Theoretical Philosophy, Linguistics, and Computer Science nationally and worldwide. Our extensive research connections provide research-oriented students ample occasions to network and further their post-graduate opportunities.
+The University of Gothenburg Alumni Network is a free, university-wide initiative connecting former students worldwide. Members gain access to events, newsletters, career opportunities, and professional networks, while supporting the university through mentoring, guest lectures, internships, and research collaboration.
+Alumni Network
+Department of Philosophy, Linguistics and Theory of Science
+At the Department of Philosophy, Linguistics and Theory of Science researchers work on many international, interdisciplinary…
+Detailed informtion about the programme
+External link
+## Study at The University of Gothenburg
+How to apply
+To be admitted to the University, you need to do an online application. The application procedure is straightforward, but it…
+Scholarships for fee paying students
+A scholarship can help cover the costs of your studies at the University of Gothenburg. On these pages you will find…
+University studies in Sweden
+External link
+The Academic calendar in Sweden
+External link
+Last modified
+15 October 2026

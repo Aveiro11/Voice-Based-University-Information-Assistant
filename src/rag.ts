@@ -1,79 +1,107 @@
-import { QdrantClient } from "@qdrant/js-client-rest";
-import OpenAI from "openai";
+import { openai, qdrant, embed, COLLECTION } from "./clients";
+import { CATEGORY, PROGRAMMES } from "./programmes";
 
-export const COLLECTION = "syllabus";
-export const VECTOR_SIZE = 384;
-
-export const qdrant = new QdrantClient({ host: "localhost", port: 6333 });
-
-// ollama speaks the openai api; the flag is only needed once this runs in the browser
-export const openai = new OpenAI({
-  baseURL: "http://localhost:11434/v1/",
-  apiKey: "ollama",
-  dangerouslyAllowBrowser: true,
-});
-
-export async function embed(text: string): Promise<number[]> {
-  const res = await openai.embeddings.create({
-    model: "qwen3-embedding",
-    input: text,
-    dimensions: VECTOR_SIZE,
-  });
-  return res.data[0].embedding;
-}
+export const CHAT_MODEL = "llama3.1:latest";
 
 export type Chunk = {
   text: string;
-  page: number;
-  chunkIndex: number;
+  programmeCode: string;
+  programmeName: string;
+  sourceType: string; // "syllabus" | "programme_page" | "overview"
+  page: number | null;
   sourceUrl: string;
   score: number;
 };
 
-export async function retrieve(question: string, limit = 5): Promise<Chunk[]> {
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+// other ways people (and the speech recogniser) refer to a programme
+const ALIASES: Record<string, string[]> = {
+  T2HAI: ["human centered ai", "human centred ai", "hai"],
+  S2IOL: ["it and learning"],
+  N2ASE: ["software engineering", "ai engineering"],
+  N2GDT: ["game design"],
+};
+
+export function mentionedProgrammes(question: string): string[] {
+  const q = ` ${norm(question)} `;
+  return PROGRAMMES.filter((p) =>
+    [p.name, ...(ALIASES[p.code] ?? [])].some((n) => q.includes(` ${norm(n)} `)),
+  ).map((p) => p.code);
+}
+
+export async function retrieve(question: string, limit = 6): Promise<Chunk[]> {
+  const codes = mentionedProgrammes(question);
   const res = await qdrant.query(COLLECTION, {
     query: await embed(question),
     limit,
     with_payload: true,
+    // if the question names a programme, only look inside it
+    filter: codes.length
+      ? { must: [{ key: "programme_code", match: { any: codes } }] }
+      : undefined,
   });
   return res.points.map((p) => {
     const pl = p.payload as any;
     return {
       text: pl.text,
+      programmeCode: pl.programme_code,
+      programmeName: pl.programme_name,
+      sourceType: pl.source_type,
       page: pl.page,
-      chunkIndex: pl.chunk_index,
       sourceUrl: pl.source_url,
       score: p.score,
     };
   });
 }
 
-export const CHAT_MODEL = "llama3.1:latest";
-
 export async function generateAnswer(question: string, chunks: Chunk[]): Promise<string> {
-  const excerpts = chunks.map((c) => `[page ${c.page}]\n${c.text}`).join("\n\n");
+  const excerpts = chunks
+    .map((c) => {
+      const where = c.page ? `, page ${c.page}` : "";
+      return `[${c.programmeName}, ${c.sourceType.replace("_", " ")}${where}]\n${c.text}`;
+    })
+    .join("\n\n");
+  const list = PROGRAMMES.map((p) => p.name).join(", ");
 
   const res = await openai.chat.completions.create({
     model: CHAT_MODEL,
-    temperature: 0.2, // low, we want it to stick to the text
+    temperature: 0.2,
     messages: [
       {
         role: "system",
-        content: `You are a voice assistant answering questions about the Master in Language Technology programme (H2LTG) at the University of Gothenburg.
-Answer using ONLY the syllabus excerpts below.
+        content: `You are a voice assistant for the master's programmes in ${CATEGORY} at the University of Gothenburg.
+The programmes in this field are: ${list}.
+Answer using ONLY the excerpts below.
 
-SYLLABUS EXCERPTS START
+EXCERPTS START
 ${excerpts}
-SYLLABUS EXCERPTS END
+EXCERPTS END
 
 Rules:
 - Your answer will be read out loud: one to three short sentences, plain words, no lists, no markdown, no course codes.
-- Never add facts that are not in the excerpts. No guessing about dates, fees, deadlines or application details.
-- If the excerpts do not answer the question, say so briefly. This syllabus is the 2024 version and does not cover tuition fees, deadlines or timetables. Point the person to the study counselling email mlt-info@flov.gu.se.
-- - If the question is too vague to answer (for example "the course" without saying which one), do not answer. Ask one short question about what they want to know.`,
+- Never add facts that are not in the excerpts. No guessing.
+- Name the programme you are talking about.
+- Fees and application dates come from the programme web page as it was when collected, so say briefly that they may have changed.
+- Do not say whether someone is allowed or eligible unless the excerpts say so directly.
+- If the question is about requirements, courses, fees or deadlines but does not say which programme, do not answer. Ask which programme they mean and name two or three of the programmes above.
+- If the excerpts do not answer the question, say so briefly and suggest the programme page or the university's study counselling.`,
       },
       { role: "user", content: question },
     ],
   });
-    return (res.choices[0].message.content ?? "").replace(/[*_#`]/g, "").trim();
+  return (res.choices[0].message.content ?? "").replace(/[*_#`]/g, "").trim();
 }
+
+// words that only make sense for one particular programme
+const PROGRAMME_TOPICS =
+  /entry|admission|requirement|eligib|apply|application|deadline|tuition|fee|cost|course|semester|credit|syllabus|curriculum|duration/i;
+
+// name of the first programme mentioned in the text, or "" if none
+export function programmeIn(text: string): string {
+  const code = mentionedProgrammes(text)[0];
+  return PROGRAMMES.find((p) => p.code === code)?.name ?? "";
+}
+
+export const needsProgramme = (question: string) =>
+  !programmeIn(question) && PROGRAMME_TOPICS.test(question);

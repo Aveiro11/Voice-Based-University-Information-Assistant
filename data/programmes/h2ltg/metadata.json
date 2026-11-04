@@ -1,0 +1,32 @@
+{
+  "name": "Language Technology",
+  "url": "https://www.gu.se/en/study-gothenburg/master-in-language-technology-h2ltg",
+  "code": "H2LTG",
+  "syllabus_format": "pdf",
+  "syllabus_url": "https://www.gu.se/sites/default/files/2024-02/H2LTG-en.pdf",
+  "syllabus_pages": 4,
+  "syllabus_chars": 8745,
+  "selection_reason": "only one distinct syllabus link",
+  "all_syllabus_links": [
+    {
+      "url": "https://www.gu.se/sites/default/files/2024-02/H2LTG-en.pdf",
+      "format": "pdf",
+      "intake": "Autumn 2026",
+      "application_code": "GU-24001"
+    },
+    {
+      "url": "https://www.gu.se/sites/default/files/2024-02/H2LTG-en.pdf",
+      "format": "pdf",
+      "intake": "Autumn 2026",
+      "application_code": "GU-24002"
+    },
+    {
+      "url": "https://www.gu.se/sites/default/files/2024-02/H2LTG-en.pdf",
+      "format": "pdf",
+      "intake": "Autumn 2027",
+      "application_code": "GU-24000"
+    }
+  ],
+  "programme_page_chars": 9304,
+  "scraped_at_utc": "2026-11-02T22:26:38.167786+00:00"
+}

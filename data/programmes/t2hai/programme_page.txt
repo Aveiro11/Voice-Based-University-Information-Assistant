@@ -1,0 +1,165 @@
+# Human-centered Artificial Intelligence Master's Programme
+Master’s programme
+T2HAI
+2 years
+120 credits (ECTS)
+Offered by the
+Department of Applied Information Technology
+at the
+Faculty of Science and Technology
+## Autumn 2026
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+31 Aug 2026
+-
+4 Jun 2028
+Application period
+16 Oct 2025
+-
+15 Jan 2026
+Application code
+GU-87001
+Curriculum
+Syllabus (pdf)
+Tuition
+Full education cost: 290 000 SEK
+First payment: 72 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Application closed
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+31 Aug 2026
+-
+4 Jun 2028
+Application period
+16 Mar 2026
+-
+15 Apr 2026
+Application code
+GU-87011
+Curriculum
+Syllabus (pdf)
+Tuition
+Full education cost: 290 000 SEK
+First payment: 72 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Application closed
+## Autumn 2027
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+30 Aug 2027
+-
+3 Jun 2029
+Application period
+16 Oct 2026
+-
+15 Jan 2027
+Application code
+GU-87001
+Curriculum
+Syllabus (pdf)
+Tuition
+Full education cost: 294 000 SEK
+First payment: 73 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Apply on University
+Admissions
+## Summary
+The program provides students with an in-depth understanding of how AI is transforming society and gives them the skills necessary to take leading roles in that transformation. Through a close relationship with innovative multidisciplinary research, the program offers students a broad theoretical foundation for analyzing the implications of AI and through close connections to industry, the public sector, and civil society, the program offers students practical skills for managing AI-driven change in complex environments.
+## Programme coordinator
+Alexandra
+Weilenmann
+Professor
++46 703-03 29 53
++46 31-786 56 34
+alexandra.weilenmann@ait.gu.se
+## Study counselling
+Contact the study counselling with questions regarding entry requirements and selection
+studievagledning@ait.gu.se
+## Sustainability related
+This education meets the requirements for Gothenburg University’s sustainability certification.
+Learn more about our sustainability criteria
+## About
+Artificial Intelligence creates radically new conditions for both individuals and society at large. It brings completely new possibilities but also new challenges where existing ways of working, understanding, and communicating are fundamentally changed.
+Making sense of these possibilities and challenges is crucial to ensuring that the development and implementation of AI can be shaped in ways that are sustainable and can contribute to solving rather than worsening global societal challenges.
+### A human outlook on AI
+In the program, students learn to take a human-centered approach that brings the individual and social aspects of human-AI interactions into focus so that AI can be implemented responsibly. This involves considering individual, interactional, organizational, social, and ethical aspects of the use of a particular AI solution in a particular context whether that be a decision process at a government agency, diagnosis support at a hospital, film recommendations online, or grading of exams at school.
+### A multidisciplinary area
+The program offers a unique environment for future UX designers, developers, researchers, business developers, policy analysts, and compliance officers looking to specialize in Human-centered Artificial Intelligence.
+As the field of HCAI is multidisciplinary, students come into contact and engage with leading researchers across several subject areas including Human-computer Interaction, Information Systems, Cognition Science, Applied IT, and Data Science.
+The pedagogical approach taken encourages active participation where students are expected to engage in discussion and hands-on activities while documenting their progression through a portfolio of work that shows both their learning in the field of HCAI and the development of their own interests. These interests can then be further explored through a research-based thesis and the opportunity to undertake an internship within a research group or at a company or organization.
+Student interview:
+Frida wants to work at the intersection of users and AI products
+## Who should apply?
+The HCAI program strives for a diverse student group and welcomes students with a bachelor's degree from different fields including cognitive science, information systems, and interaction design.
+Applications are welcome from those with degrees in other areas if all required prerequisites are met. These prerequisites include 7.5 credits of programming in a general programming language, 7.5 credits in artificial intelligence or machine learning, and 7.5 credits in human-computer or human-technology interaction.
+## Prerequisites and selection
+### Entry requirements
+- Bachelor's degree 180 credits including an independent degree project of at least 15 credits or equivalent,
+- 7\.5 credits programming in a general programming language,
+- 7\.5 credits in artificial intelligence or machine learning,
+- 7\.5 credits in human-computer interaction, human-technology interaction, or interaction design, and
+- Applicants must prove their knowledge of English: English 6/English B from Swedish Upper Secondary School or the equivalent level of an internationally recognized test, for example TOEFL, IELTS.
+### Specific entry requirements for admission to a course within the study programme
+Within the study programme there can be specific entry requirements for admission to individual courses. These specific entry requirements are documented in each course syllabus and state which entry requirements are necessary to be registered on a course within the study programme.
+### Selection
+Selection is according to the Higher Education Ordinance and the University of Gothenburg admission regulations for education on first and second cycle.
+### Selection
+Selection is based upon the number of credits from previous university studies, maximum 165 credits.
+## After graduation
+As a multidisciplinary master the program offers students the opportunity to specialize in HCAI as a complement to their existing educational and professional background. It prepares students for a wide variety of professional roles such as UX designers, developers, researchers, business developers, policy analysts, and compliance officers, each an area where specialized knowledge of HCAI is increasingly important as AI systems are integrated into the fabric of society.
+For those who aim to continue their education beyond the master’s level, the program also prepares students for doctoral studies.
+## Facilities
+### Campus Medicinareberget
+There are many study spaces at Campus Medicinareberget, both in the buildings across campus and in the Biomedical Library and the Health Sciences Library at Hälsovetarbacken. Both libraries offer course literature, journals, and study areas.
+The proximity to laboratories and research environments also provides a study setting where theory and practice are closely connected.
+Premises at Campus Medicinareberget
+## Exchange opportunities
+During year two of the master's programme there are elective courses equivalent to 30 credits. As a student you have the opportunity to apply for exchange studies in Europe or in other parts of the world. Former students from our master's programmes have gained valuable experience when they have studied at our partner universities in, for example, Paris, Japan and Singapore. As an exchange student, you do not need to pay any semester fees and since the study abroad is credited in your degree, no extra study time is added to your education.
+More information about exchange opportunities
+Frida wants to work at the intersection of users and AI products
+Frida Piscator Pettersson is in her second year of the Master’s programme in Human-centered Artificial Intelligence. She is…
+## Study at The University of Gothenburg
+How to apply
+To be admitted to the University, you need to do an online application. The application procedure is straightforward, but it…
+Scholarships for fee paying students
+A scholarship can help cover the costs of your studies at the University of Gothenburg. On these pages you will find…
+University studies in Sweden
+External link
+The Academic calendar in Sweden
+External link
+Last modified
+16 September 2026

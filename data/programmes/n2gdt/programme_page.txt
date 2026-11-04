@@ -1,0 +1,229 @@
+# Game Design & Technology Master's Programme
+Master’s programme
+N2GDT
+2 years
+120 credits (ECTS)
+Offered by the
+Department of Computer Science and Engineering
+at the
+Faculty of Science and Technology
+## Autumn 2026
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+31 Aug 2026
+-
+4 Jun 2028
+Application period
+16 Oct 2025
+-
+15 Jan 2026
+Application code
+GU-86006
+Curriculum
+Syllabus (pdf)
+Tuition
+Full education cost: 290 000 SEK
+First payment: 72 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Application closed
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+31 Aug 2026
+-
+4 Jun 2028
+Application period
+16 Mar 2026
+-
+15 Apr 2026
+Application code
+GU-86005
+Curriculum
+Syllabus (pdf)
+Tuition
+Full education cost: 290 000 SEK
+First payment: 72 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Application closed
+## Autumn 2027
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+30 Aug 2027
+-
+3 Jun 2029
+Application period
+16 Oct 2026
+-
+15 Jan 2027
+Application code
+GU-86003
+Curriculum
+Syllabus (pdf)
+Tuition
+Full education cost: 294 000 SEK
+First payment: 73 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Apply on University
+Admissions
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+30 Aug 2027
+-
+3 Jun 2029
+Application period
+15 Mar 2027
+-
+15 Apr 2027
+Application code
+GU-86002
+Curriculum
+Syllabus (pdf)
+Tuition
+Full education cost: 294 000 SEK
+First payment: 73 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Application opens 15 March 2027
+## Summary
+The Master's programme in Game Design and Technology teaches you a blend of the skills and techniques required to work in and around the game industry. These skills include the ability to meaningfully analyse gameplay systems and their impact; understand, develop and use game engines; and develop games with the intention of creating highly enjoyable player experiences.
+## Programme coordinator
+Michael
+Heron
+Senior Lecturer
+michael.heron@gu.se
+### Study Counselling
+For questions regarding choice of study programme, support in your current studies, or guidance in your future career, please contact:
+studycounselling@cse.gu.se
+More contact information
+### Application/Admission
+For information on application and admission, please contact:
+antagning@gu.se
+More contact information
+## About
+Games have become a massive part of our global entertainment economy. The gaming industry produces more revenue than the music industry and the movie industry combined. It is a rich, complicated field where there is ample opportunity to combine creativity and technical skills in meaningful and satisfying ways. Whether it is in the innovative design of game mechanisms or the implementation of subsystems within a high-powered gaming engine – gaming is a topic that has room for everyone’s imagination.
+And that’s where this Master’s programme comes in.
+Within this degree we teach a blend of topics that cover the range of skills needed to work in the industry. We’ll show you how to build a game engine and the design considerations that need to be taken into account. We’ll talk about how to analyse the ways in which a game fits together and how you can develop your own more effectively. We’ll talk about cutting edge game design trends, and bleeding edge technical trends. At the end of this programme you will be equipped to design and develop robust, interesting games that people actually want to play. Through project-based assessment you’ll build a portfolio that shows employers exactly what you can do.
+This Master’s programme though is not just about building yourself a career in games, but also about how to build games into a whole range of other careers. The skills needed to create a game in
+Unity
+or
+Unreal
+are the same skills you can use to create interactive simulations, animations, and virtual reality environments. The tools you will discover for designing gameplay are the same ones you can use to create compelling user experiences in non-game contexts. Learning how to optimize the rigorous and competing demands of a game engine means you can optimize almost anything. Our focus is primarily on video games, but you’ll also be encouraged to explore the design lessons in everything from board-games to role-playing games to mega-games. This is what the Game Design & Technology master's offers its students. We hope to count you among them!
+### Combining theory and practice for advanced skills
+Within the Master’s programme in Game Design and Technology we believe that practice should be informed by theory, and theory informed by practice. You will develop your technical skills in a variety of areas and make use of industry-relevant tools. All of our game-specific courses have a strong focus on building experiences that a player will enjoy… and understanding the reasons when that’s not the case. Our approach is based on four key pillars – analysis, design, implementation and evaluation. Our approach is also cyclical – when you’ve built on each of these pillars you take the results, refine, and start again.
+Courses such as
+Introduction to Game Research
+;
+Gameplay Design
+;
+Game Engine Architecture
+; and
+the Game Development Project
+give you grounded, concrete experience with techniques important to each of these key areas. Through lectures, labs, and tutorials you’ll be supported in this all the way through the programme. We have a strong focus too on authentic project-based learning where individual supervision ensures you get the best experience for your own particular needs.
+## Programme structure and content
+The first semester introduces important aspects and characteristics of the game engine development field through compulsory courses. The second and third semesters contain one compulsory course each and the possibility for elective courses.
+The following are compulsory courses:
+Advanced Requirements Engineering
+An Introduction to Game Research
+Computer Graphics
+Gameplay Design
+Game Engine Architecture
+Current Trends in Gaming
+Game Development Project
+Master’s Thesis in Computer Science and Engineering
+You can specialize with elective courses within areas such as for example:
+Interaction design methodology
+,
+Computer Architecture
+,
+Interactive storytelling and digital movie making
+,
+Independent Project
+, and
+Game Internship
+.
+You can spend one or two semesters on your master’s thesis. If you choose to spend the whole second year on your thesis, you do not need to take the otherwise compulsory course
+Game Development Project
+.
+Play video: Master’s programme in Game Design and Technology
+Navigate to video: Master’s programme in Game Design and Technology
+Video (03:17)
+Master’s programme in Game Design and Technology
+## Who should apply?
+We do not expect any specific training in games before you come to this Master's programme. All we want is for you to take your play seriously.
+If you want to develop the skills needed to create complex, interesting games that meet the needs of a demanding audience, then this may be the programme for you. If you want to get deep into understanding the mindset of a player and how you can build games they’ll love, then this may be the programme for you. If you want to integrate gaming knowledge into new and interesting domains, then this may be the programme for you. If you want to gamify, or augment reality, or simulate the world… then this may be the programme for you.
+## Prerequisites and selection
+### Entry requirements
+Bachelor's degree 180 credits including 7.5 credits project or equivalent within the field of Software Engineering, Computer Science, Information Technology, Information Systems, or equivalent.
+- 4\.5 credits in mathematics.
+- 15 credits of programming, of which 7.5 credits is object oriented programming.
+Applicants must prove knowledge of English: English 6/English level 2 or the equivalent level of an internationally recognized test, for example TOEFL, IELTS.
+#### Specific entry requirements for admission to a course within the study programme
+Within the study programme there can be specific entry requirements for admission to individual courses. These specific entry requirements are documented in each course syllabus and state which entry requirements are necessary to be registered on a course within the study programme.
+### Selection
+Selection is based upon the number of credits from previous university studies, maximum 165 credits.
+## After graduation
+Graduates of the programme receive the degree Master of Science with a major in Interaction Design.
+We expect our graduates to be prepared for work in a wide range of gaming jobs, including in design, development, and quality assurance. While we expect our students to be in demand for their digital skills, we also see them as having qualities that make them ideal for analog gaming professions too. Students in this programme can expect to have the necessary background that qualifies them to incorporate their skills into a wide range of adjacent industries. Experience in everything from virtual reality to game engine design to the construction of interactive simulations has applicability in a wide range of fields.
+The research component of this programme also qualifies students to continue their studies to the doctoral level.
+## Facilities
+The Master’s programme is offered by the Department of Computer Science and Engineering, which is jointly operated by the University of Gothenburg and Chalmers University of Technology.
+The department is primarily located at Campus Johanneberg, but the programme in Game Design & Technology is mainly given on campus Lindholmen.
+More information about facilities
+Student interviews
+What do our current and former students in the Game Design & Technology master's programme think of their education?
+News – 20 April 2021
+How interaction design can pave the way for digital exhibitions – a student…
+In a project together with Sweden's national science center, Universeum, the students in the master's programmes Interaction…
+## Study at The University of Gothenburg
+How to apply
+To be admitted to the University, you need to do an online application. The application procedure is straightforward, but it…
+Scholarships for fee paying students
+A scholarship can help cover the costs of your studies at the University of Gothenburg. On these pages you will find…
+University studies in Sweden
+External link
+The Academic calendar in Sweden
+External link
+Last modified
+22 October 2026

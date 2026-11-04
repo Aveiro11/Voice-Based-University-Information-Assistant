@@ -1,7 +1,13 @@
 import { assign, fromPromise, setup } from "xstate";
 import { Settings, speechstate, SpeechStateExternalEvent } from "speechstate";
 import { KEY } from "./azure";
-import { retrieve, generateAnswer, type Chunk } from "./rag";
+import {
+  retrieve,
+  generateAnswer,
+  programmeIn,
+  needsProgramme,
+  type Chunk,
+} from "./rag";
 
 const settings: Settings = {
   azureCredentials: {
@@ -11,28 +17,49 @@ const settings: Settings = {
   },
   azureRegion: "swedencentral",
   asrDefaultCompleteTimeout: 0,
-  asrDefaultNoInputTimeout: 8000,
+  asrDefaultNoInputTimeout: 6000,
   locale: "en-US",
   ttsDefaultVoice: "en-US-DavisNeural",
   bargeIn: false,
 };
 
+const GREETING =
+  "Hi! I can answer questions about the master's programmes in AI, computer science and technology at the University of Gothenburg.";
+const SORRY = "Sorry, something went wrong on my side. Could you ask again?";
+const OFFLINE =
+  "I can't reach my language model at the moment. Please check the connection and try again.";
+const WHICH =
+  "Which programme do you mean? For example Computer Science or Logic.";
+
 type Ctx = {
   ssRef: any;
-  heard: string; // latest recognised utterance, filled in while listening
+  heard: string;
   question: string;
   chunks: Chunk[];
   answer: string;
-  misses: number; // consecutive turns with no speech
+  misses: number; // silent turns in a row
+  programme: string; // last programme the user mentioned
+  pending: string; // question waiting for a programme name
 };
 
-// HEARD is only for typing into the text box while debugging
 type Ev =
   | { type: "CLICK" }
-  | { type: "HEARD"; text: string }
+  | { type: "STOP" }
+  | { type: "HEARD"; text: string } // debug text box
   | SpeechStateExternalEvent;
 
-const SORRY = "Sorry, something went wrong on my side. Could you ask again?";
+// what the user just said, glued to a waiting question if it names a programme
+const combined = (c: Ctx) => {
+  const heard = c.heard.trim();
+  return c.pending && programmeIn(heard) ? `${c.pending} (${heard})` : heard;
+};
+
+// the question as the retriever and the LLM should see it: if the user named
+// no programme this time, use the one from earlier in the conversation
+const forSearch = (c: Ctx) =>
+  programmeIn(c.question) || !c.programme
+    ? c.question
+    : `${c.question} (${c.programme})`;
 
 export const dmMachine = setup({
   types: {} as { context: Ctx; events: Ev },
@@ -49,6 +76,8 @@ export const dmMachine = setup({
     heardSomething: ({ context }) => context.heard.trim().length > 0,
     tooManyMisses: ({ context }) => context.misses >= 2,
     emptyQuestion: ({ context }) => context.question.length === 0,
+    needsClarify: ({ context }) =>
+      !context.programme && needsProgramme(context.question),
   },
   actions: {
     prepare: ({ context }) => context.ssRef.send({ type: "PREPARE" }),
@@ -58,8 +87,15 @@ export const dmMachine = setup({
         type: "SPEAK",
         value: { utterance: params.utterance },
       }),
+    stopAudio: ({ context }) => context.ssRef.send({ type: "STOP" }),
     logError: ({ event }) => console.error("[DM error]", (event as any).error),
-    useSorry: assign({ answer: SORRY }),
+    // connection problems get their own message, everything else the generic one
+    useSorry: assign({
+      answer: ({ event }) =>
+        /connection|fetch/i.test(String((event as any).error?.message))
+          ? OFFLINE
+          : SORRY,
+    }),
   },
 }).createMachine({
   id: "DM",
@@ -70,6 +106,8 @@ export const dmMachine = setup({
     chunks: [],
     answer: "",
     misses: 0,
+    programme: "",
+    pending: "",
   }),
   initial: "Prepare",
   states: {
@@ -77,97 +115,147 @@ export const dmMachine = setup({
       entry: "prepare",
       on: { ASRTTS_READY: "WaitToStart" },
     },
-    // browsers only allow audio after a click, hence the button
+    // need a click before audio; Stop and Goodbye also end up here
     WaitToStart: {
-      on: { CLICK: "Greeting" },
-    },
-    Greeting: {
-      entry: {
-        type: "speak",
-        params: {
-          utterance:
-            "Hi! Ask me anything about the Master in Language Technology programme.",
+      id: "idle",
+      on: {
+        CLICK: {
+          target: "Active",
+          actions: assign({ programme: "", pending: "" }), // fresh conversation
         },
       },
-      on: { SPEAK_COMPLETE: "Listening" },
     },
-    Listening: {
-      entry: [assign({ heard: "" }), "listen"],
+    // STOP is handled once here. Outside Active nothing handles it.
+    Active: {
+      initial: "Greeting",
       on: {
-        RECOGNISED: {
-          actions: assign({
-            heard: ({ event }) => event.value[0]?.utterance ?? "",
-          }),
+        STOP: {
+          target: "#idle",
+          actions: ["stopAudio", assign({ misses: 0, pending: "" })],
         },
-        LISTEN_COMPLETE: [
-          {
-            guard: "heardSomething",
-            target: "Processing",
-            actions: assign({
-              question: ({ context }) => context.heard.trim(),
-              misses: 0,
+      },
+      states: {
+        Greeting: {
+          entry: { type: "speak", params: { utterance: GREETING } },
+          on: { SPEAK_COMPLETE: "Listening" },
+        },
+        Listening: {
+          entry: [assign({ heard: "" }), "listen"],
+          on: {
+            RECOGNISED: {
+              actions: assign({
+                heard: ({ event }) => event.value[0]?.utterance ?? "",
+              }),
+            },
+            LISTEN_COMPLETE: [
+              {
+                guard: "heardSomething",
+                target: "Processing",
+                actions: assign({
+                  question: ({ context }) => combined(context),
+                  programme: ({ context }) =>
+                    programmeIn(combined(context)) || context.programme,
+                  pending: "",
+                  misses: 0,
+                }),
+              },
+              {
+                guard: "tooManyMisses",
+                target: "Goodbye",
+                actions: assign({ pending: "" }),
+              },
+              {
+                target: "NoInput",
+                actions: assign({ misses: ({ context }) => context.misses + 1 }),
+              },
+            ],
+            HEARD: {
+              target: "Processing",
+              actions: assign({
+                question: ({ event }) => event.text.trim(),
+                programme: ({ context, event }) =>
+                  programmeIn(event.text) || context.programme,
+                pending: "",
+              }),
+            },
+          },
+        },
+        NoInput: {
+          entry: {
+            type: "speak",
+            params: ({ context }) => ({
+              utterance:
+                context.misses === 1
+                  ? "Do you have any other questions?"
+                  : "I'm still here. Just ask whenever you're ready.",
             }),
           },
-          {
-            guard: "tooManyMisses",
-            target: "WaitToStart",
-            actions: assign({ misses: 0 }),
+          on: { SPEAK_COMPLETE: "Listening" },
+        },
+        Goodbye: {
+          entry: {
+            type: "speak",
+            params: {
+              utterance:
+                "I'll stop listening now. Press start when you want to continue.",
+            },
           },
-          {
-            target: "NoInput",
-            actions: assign({ misses: ({ context }) => context.misses + 1 }),
+          on: {
+            SPEAK_COMPLETE: {
+              target: "#idle",
+              actions: assign({ misses: 0 }),
+            },
           },
-        ],
-        HEARD: {
-          target: "Processing",
-          actions: assign({ question: ({ event }) => event.text.trim() }),
+        },
+        Processing: {
+          always: [
+            { guard: "emptyQuestion", target: "Listening" },
+            { guard: "needsClarify", target: "Clarify" },
+            { target: "Retrieving" },
+          ],
+        },
+        // the question needs a programme and none is known: ask, keep the
+        // question, and listen again. Listening glues the answer onto it.
+        Clarify: {
+          entry: [
+            assign({ pending: ({ context }) => context.question }),
+            { type: "speak", params: { utterance: WHICH } },
+          ],
+          on: { SPEAK_COMPLETE: "Listening" },
+        },
+        Retrieving: {
+          invoke: {
+            src: "retrieve",
+            input: ({ context }) => ({ question: forSearch(context) }),
+            onDone: {
+              target: "GeneratingAnswer",
+              actions: assign({ chunks: ({ event }) => event.output }),
+            },
+            onError: { target: "Speaking", actions: ["logError", "useSorry"] },
+          },
+        },
+        GeneratingAnswer: {
+          invoke: {
+            src: "generate",
+            input: ({ context }) => ({
+              question: forSearch(context),
+              chunks: context.chunks,
+            }),
+            onDone: {
+              target: "Speaking",
+              actions: assign({ answer: ({ event }) => event.output }),
+            },
+            onError: { target: "Speaking", actions: ["logError", "useSorry"] },
+          },
+        },
+        Speaking: {
+          entry: {
+            type: "speak",
+            params: ({ context }) => ({ utterance: context.answer }),
+          },
+          on: { SPEAK_COMPLETE: "Listening" },
         },
       },
-    },
-    NoInput: {
-      entry: {
-        type: "speak",
-        params: { utterance: "Sorry, I didn't catch that." },
-      },
-      on: { SPEAK_COMPLETE: "Listening" },
-    },
-    Processing: {
-      always: [
-        { guard: "emptyQuestion", target: "Listening" },
-        { target: "Retrieving" },
-      ],
-    },
-    Retrieving: {
-      invoke: {
-        src: "retrieve",
-        input: ({ context }) => ({ question: context.question }),
-        onDone: {
-          target: "GeneratingAnswer",
-          actions: assign({ chunks: ({ event }) => event.output }),
-        },
-        onError: { target: "Speaking", actions: ["logError", "useSorry"] },
-      },
-    },
-    GeneratingAnswer: {
-      invoke: {
-        src: "generate",
-        input: ({ context }) => ({
-          question: context.question,
-          chunks: context.chunks,
-        }),
-        onDone: {
-          target: "Speaking",
-          actions: assign({ answer: ({ event }) => event.output }),
-        },
-        onError: { target: "Speaking", actions: ["logError", "useSorry"] },
-      },
-    },
-    Speaking: {
-      entry: {
-        type: "speak",
-        params: ({ context }) => ({ utterance: context.answer }),
-      },
-      on: { SPEAK_COMPLETE: "Listening" },
     },
   },
 });

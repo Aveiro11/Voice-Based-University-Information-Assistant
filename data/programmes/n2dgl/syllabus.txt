@@ -1,0 +1,102 @@
+# Digital Leadership Master's Programme
+## Digitalt ledarskap masterprogram
+Program
+N2DGL
+120 credits  (ECTS)
+Go to
+Digital Leadership Master's Programme
+## About the Syllabus
+Valid from
+Autumn semester 2025
+Registration number
+GU 2026/3162
+Date of entry into force
+2027-08-29
+Decision date
+2026-09-01
+Valid from
+Autumn 2027
+Decision maker
+Dean of the Faculty
+Starts at first-cycle level and ends at second-cycle level
+No
+## Purpose
+Digitalization is changing almost every aspect of work, business, and society. For future leaders, the challenge is not simply to adopt new technologies, including artificial intelligence, but to understand how they reshape organizations, individuals, and society. The Digital Leadership master’s programme prepares students to lead this change. Students will learn how to connect technology, infrastructure, strategy, and organizational development, while addressing the societal challenges that digitalization creates. The programme is designed for students who want to move beyond simply understanding digitalization and develop the future-oriented capabilities to shape it responsibly and effectively.
+The overall purpose of the master’s programme is to give students a deep understanding of how digitalization transforms society and to develop capabilities for taking a leading role in embracing and shaping this transformation. In doing so, the programme offers a broad theoretical foundation for understanding contemporary phenomena, it provides methods and techniques for analysing the implications of digitalization, and it supports students in developing practical skills to deal with change in complex environments. An important aspect of the study programme is to be close to the current research in the areas within the study programme, and to develop governance and leadership with a focus on digitalization. Close collaboration with industry partners ensures that the programme combines academic rigour with practical relevance.
+The pedagogic stance is based on creating a student-centred learning environment that encourages active participation.
+The study programme seeks to attract students from diverse backgrounds, including computer science, informatics, information technology, economics, industrial economics, and behavioural sciences, or equivalent. The programme is taught in English and is open to international students.
+Further, the study programme prepares students for careers paths that extends far beyond traditional positions in consulting or at corporate IT Departments, including novel roles such as: Innovation Manager, Digital Strategist, Digital Designer, Chief Information Officer, Chief Technology Officer, Chief Digital Officer, Digital Brand Director, Head of Digital Platforms, Digital Marketing Manager, Content Acquisition Manager, Digital Transf ormation Officer. The study programme also prepares students for further postgraduate studies.
+## Entry requirements
+Bachelor's degree 180 credits including an independent project (degree project) of at least 15 credits or equivalent. Applicants must prove their knowledge of English: English 6/English B from Swedish Upper Secondary School or the equivalent level of an internationally recognized test, for example TOEFL, IELTS.
+## Degree and main field of study
+This programme leads to a Degree of Master of Science (120 credits) with a major in Information Systems (Filosofie masterexamen med huvudområdet Informatik).
+## Content
+The programme consists of courses in the area of digital leadership and related subjects. The programme includes a total of 120 credits. The first two semesters contribute 60 credits, distributed across eight compulsory courses. The third semester consists of optional courses, contributing 30 credits. As an alternative to courses offered by the Department of Applied Information Technology, students may broaden their education through courses offered by University of Gothenburg or other higher education institutions. The programme is concluded by a 30 credit independent degree project.
+The education is given at full time. An academic year is divided into two semesters with two study periods, each of 15 credits. Apart from degree project, the programme is based on 7.5 credit courses. That means each semester includes 4 courses.
+Courses are arranged for progression. In that vein, they develop topic-specific knowledge, while concurrently contributing to the advancement of general skills and abilities in the main field of study.
+The education involves lectures and extensive individual reading. However, to produce a student-centred learning environment it frequently involves interactive seminars, case studies, supervision, and projects, where students apply and deepen their knowledge. The literature is in English, as well as all teaching and communication.
+## Study process
+The programme departs from the assumption that digital leadership requires deep understanding and careful management of the interrelation between digital technology and people/organizations. The first semester puts an emphasis on digital technology. It introduces a wide range of concepts in the area of materiality and infrastructure. It also entails a course on methods, where students get hands-on experience with qualitative and quantitative methods used widely in both research and practice. The second semester takes on the perspective of people and organizations. It introduces concepts in the areas of organizing, governance, and strategy. The first year is concluded with a project course, where students get to apply theoretical insights to resolve practical problems. The third semester zooms out from specific concepts, and allows for broader reflection through thematic courses. The final semester of the study programme consists of an independent degree project, allowing students to deeply engage in a specific research question related to the main field of study.
+The study programme consists of the following compulsory courses:
+Technology, 7.5 credits
+Infrastructure, 7.5 credits
+Artificial Intelligence, 7.5 credits
+Methods, 7.5 credits
+Organizing, 7.5 credits
+Governance, 7.5 credits
+Strategy, 7.5 credits
+Project Work, 7.5 credits
+Master’s Thesis in Information Systems, 30 credits
+The programme includes 30 credits of optional courses. Thematic course are offered within the programme. Additionally, it is possible to take alternative courses offered by the University of Gothenburg or by other universities, in Sweden or abroad.
+## Objectives
+## General outcomes for Degree of Master (120 credits)
+Knowledge and understanding
+For a Degree of Master (120 credits) the student shall
+demonstrate knowledge and understanding in the main field of study, including both broad knowledge of the field and a considerable degree of specialised knowledge in certain areas of the field as well as insight into current research and development work, and
+demonstrate specialised methodological knowledge in the main field of study.
+Competence and skills
+For a Degree of Master (120 credits) the student shall
+demonstrate the ability to critically and systematically integrate knowledge and analyse, assess and deal with complex phenomena, issues and situations even with limited information,
+demonstrate the ability to identify and formulate issues critically, autonomously and creatively as well as to plan and, using appropriate methods, undertake advanced tasks within predetermined time frames and so contribute to the formation of knowledge as well as the ability to evaluate this work,
+demonstrate the ability in speech and writing both nationally and internationally to clearly report and discuss his or her conclusions and the knowledge and arguments on which they are based in dialogue with different audiences, and
+demonstrate the skills required for participation in research and development work or autonomous employment in some other qualified capacity.
+Judgement and approach
+For a Degree of Master (120 credits) the student shall
+demonstrate the ability to make assessments in the main field of study informed by relevant disciplinary, social and ethical issues and also to demonstrate awareness of ethical aspects of research and development work,
+demonstrate insight into the possibilities and limitations of research, its role in society and the responsibility of the individual for how it is used, and
+demonstrate the ability to identify the personal need for further knowledge and take responsibility for his or her ongoing learning.
+## Local outcomes
+Knowledge and understanding
+For a Degree of Master of Science (120 credits) with a major in information systems the student shall
+exhibit deep knowledge about and ability to apply theories in the areas of innovation, governance and control, digital infrastructure, and organizing, and
+demonstrate the ability to identify current research challenges in the above mentioned areas, and
+display knowledge of research methods and techniques for analysis appropriate for conducting empirical investigations related to the main field of study.
+Competence and skills
+For a Degree of Master of Science (120 credits) with a major in information systems the student shall
+demonstrate ability to develop sustainable innovation strategies to support digital innovation and continuous value creation across different organisational contexts,
+demonstrate ability to design and evaluate governance configurations and control for digital leadership,
+demonstrate ability to develop future oriented business models based on digital infrastructures,
+demonstrate ability to lead, implement and communicate development work within different organizational contexts, and
+demonstrate the skills required to independently, and in cooperation with others, apply appropriate research methods within the areas of innovation, governance and control, digital infrastructure and organizing.
+Judgement and approach
+For a Degree of Master of Science (120 credits) with a major in information systems the student shall
+demonstrate ability to critically evaluate assumptions, principles, strengths and weaknesses of central theories and frameworks underpinning innovation, governance and control, digital infrastructure, and organising,
+demonstrate ability to compare and contrast industrial innovation and digital innovation,
+demonstrate ability to assess and argue for choices and combinations of methods for organisational development and digital transformation that take ethics and sustainability into consideration.
+## Sustainability labelling
+The programme is sustainability-related, which means that at least one of the outcomes clearly shows that the programme content meets at least one of the University of Gothenburg’s confirmed sustainability criteria.
+## Transitional provisions
+For transition provisions, see the current degree description.
+## Other regulations
+### Credit transfer of former education
+In some cases, the student has the right to be given credit for former higher education according to the legislative regulations of the Higher Education Ordinance.
+### Evaluation
+The courses of the study programme are evaluated according to each course syllabus. The result will be used for planning and implementation of upcoming courses. A summary is given to students at the start of the courses
+The study programme will be followed up and evaluated in accordance with the applicable Policy for the Quality Assurance and Continuous Quality Improvement of Education at the University of Gothenburg (P
+olicy för kvalitetssäkring och kvalitetsutveckling av utbildning vid Göteborgs universitet
+).
+## Guaranteed admission
+Students who follow the study programme at the prescribed rate have guaranteed admission. There are two kinds of guaranteed admission at the University of Gothenburg: general or limited.
+General guaranteed admission means that the students admitted to the study programme have guaranteed admission to all of the compulsory and recommended courses in the programme syllabus provided that specific entry requirements are fulfilled and the student applies to the course within the study programme within the prescribed application period.
+Limited guaranteed admission means that the students cannot be guaranteed their first-choice place for optional courses.
+For optional courses outside the study programme local admission regulations are valid and there is no guaranteed admission.

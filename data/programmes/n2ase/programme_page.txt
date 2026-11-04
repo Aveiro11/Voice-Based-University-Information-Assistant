@@ -1,0 +1,86 @@
+# Software and AI Engineering Master's Programme
+Master’s programme
+N2ASE
+2 years
+120 credits (ECTS)
+Offered by the
+Department of Computer Science and Engineering
+at the
+Faculty of Science and Technology
+## Autumn 2027
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+30 Aug 2027
+-
+3 Jun 2029
+Application period
+16 Oct 2026
+-
+15 Jan 2027
+Application code
+GU-86008
+Tuition
+Full education cost: 294 000 SEK
+First payment: 73 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Apply on University
+Admissions
+## Summary
+Modern software is increasingly complex and autonomous, with functionality delivered by a blend of traditional source code and Artificial Intelligence models. Constructing trustworthy and reliable systems requires rigorous Software and AI Engineering practices.
+As a student in the master’s programme in Software and AI Engineering, you will develop both the technological and human-centered perspectives needed to successfully deploy AI-based software systems – perspectives highly sought after in the job market.
+## If you have questions
+The University's study counsellors can help you if you have a question about a course or programme.
+Find study counsellors
+## About
+Today's society depends on complex software systems. Software regulates the electricity grid and communication networks, manages our private information, controls our cars, automates our factories, and monitors our health. We are in the midst of a fundamental paradigm shift in how software is constructed and operates. New systems blend traditional source code-based functionality with functionality powered by Artificial Intelligence (AI) and Machine Learning (ML) models. These systems are becoming increasingly capable and autonomous.
+While positive, these increases in capabilities are also coupled with an increase in complexity of the systems-under-development. For example, such systems have non-deterministic, self-evolving behavior. This complexity is coupled with changes in how software is developed, such as the increased automation of development tasks through the integration of AI into the development process. It is important that we construct robust, operational systems, given growing demand for features, limited development budgets and strict time constraints.
+Meeting this goal requires not just “programmers”, but “engineers” capable of systematically and rigorously specifying, planning, designing, implementing, verifying, and maintaining these systems. Software engineering is a field focused on the application of engineering principles to the development of software systems, centering around the design, development, quality assurance, and maintenance of such systems. We are now also seeing the emergence of a new field, AI engineering, dedicated to the engineering of AI and ML-based systems, including agentic systems.
+### Preparing you for a future career
+This master's programme combines technology-centered and human-centered perspectives on software and AI engineering, with the goal of educating engineers and researchers who are skilled in designing quality software at low development and maintenance costs, who can gain mastery of new tools, techniques, and processes for software development, and who are prepared to meet the needs of diverse product domains, forms of interaction, and groups of users.
+### A learning environment shaped by research and practice
+The programme in Software and AI Engineering offers a mixture of conventional lectures, project work, and research seminars in close collaboration with real industrial projects, industry representatives, and leading researchers in the emerging field of AI engineering. The ability to take part in state-of-the-art research projects is an important aspect of the programme, realized through seminars, integration of research into course content, and opportunities to study or work with our faculty. We additionally offer individual elective project courses centered around research and industrial internships.
+## Programme structure and content
+In the programme, students begin with five mandatory courses that provide a strong foundation in Software and AI Engineering, focusing on data analysis, statistical modeling, AI-based software development, data privacy, and AI Engineering. In the second semester, students also take part in a hands-on project course, bridging research and industrial practice in AI Engineering.
+In the second and third semesters, students gain specialized knowledge by selecting at least 15 credits of additional advanced courses in Software Engineering and 30 credits of elective courses offered within and outside the main field – for example, in information technology, computer science, or information systems. During this time, some students take part in opportunities to study abroad, get credit for doing an internship at a company, or conduct cutting-edge scientific research.
+Programme structure and content
+## Who should apply?
+This programme is aimed at students who already have a strong basic foundation in software engineering – for example, those with a bachelor’s degree or some work experience in the area – who want to deepen their software engineering knowledge and skills and who want to specialize in the emerging field of AI engineering.
+## Prerequisites and selection
+### Entry requirements
+A Bachelor's degree of 180 credits in Software Engineering, Computer Science, Information Technology, Informatics, Computer Engineering, or an equivalent field is required for admission to the programme.
+Applicants must also have:
+- at least 12 credits in programming,
+- at least 12 credits in software engineering or software design,
+- at least 6 credits in artificial intelligence or machine learning, and
+- at least 6 credits in mathematics
+Applicants must also demonstrate knowledge of English equivalent to English 6/English Level 2 from Swedish Upper Secondary School, or an equivalent level demonstrated through an internationally recognized test, such as TOEFL or IELTS.
+### Selection
+Selection is based upon the number of credits from previous university studies, maximum 165 credits.
+## After graduation
+Graduates of our programme enter roles such as Software Engineer, Software Tester, Project Manager, AI Engineer, Reliability Engineer, or Data Scientist. Our graduates learn about emerging technologies – such as AI, robotics, and distributed systems – and methods of software development – such as DevOps and Continuous Integration/Delivery – preparing them to be technology leaders.
+They are commonly employed at companies such as Volvo, Ericsson, Spotify, Einride, Amazon Web Services, Astra Zeneca, Knowit, or Saab. Our graduates have also continued to doctoral positions in leading universities across the world.
+## Facilities
+The master's programme is given by the Department of Computer Science and Engineering, Division of Software Engineering, which is located in the middle of Sweden's leading technology hub, Lindholmen Science Park, close to the city center in Gothenburg.
+More information about facilities
+## Study at The University of Gothenburg
+How to apply
+To be admitted to the University, you need to do an online application. The application procedure is straightforward, but it…
+Scholarships for fee paying students
+A scholarship can help cover the costs of your studies at the University of Gothenburg. On these pages you will find…
+University studies in Sweden
+External link
+The Academic calendar in Sweden
+External link
+Last modified
+22 October 2026

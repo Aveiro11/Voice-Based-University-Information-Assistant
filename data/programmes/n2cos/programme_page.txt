@@ -1,0 +1,213 @@
+# Computer Science, Master's Programme
+Master’s programme
+N2COS
+2 years
+120 credits (ECTS)
+Offered by the
+Department of Computer Science and Engineering
+at the
+Faculty of Science and Technology
+## Autumn 2026
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+31 Aug 2026
+-
+4 Jun 2028
+Application period
+16 Oct 2025
+-
+15 Jan 2026
+Application code
+GU-86008
+Curriculum
+Syllabus
+Tuition
+Full education cost: 290 000 SEK
+First payment: 72 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Application closed
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+31 Aug 2026
+-
+4 Jun 2028
+Application period
+16 Mar 2026
+-
+15 Apr 2026
+Application code
+GU-86007
+Curriculum
+Syllabus
+Tuition
+Full education cost: 290 000 SEK
+First payment: 72 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Application closed
+## Autumn 2027
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+30 Aug 2027
+-
+3 Jun 2029
+Application period
+16 Oct 2026
+-
+15 Jan 2027
+Application code
+GU-86005
+Curriculum
+Syllabus
+Tuition
+Full education cost: 294 000 SEK
+First payment: 73 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Apply on University
+Admissions
+Study pace
+100%
+Time
+Day
+Location
+Göteborg
+Study form
+Campus
+Language
+English
+Duration
+30 Aug 2027
+-
+3 Jun 2029
+Application period
+15 Mar 2027
+-
+15 Apr 2027
+Application code
+GU-86004
+Curriculum
+Syllabus
+Tuition
+Full education cost: 294 000 SEK
+First payment: 73 500 SEK
+No fees
+are charged for EU and EEA citizens, Swedish residence permit holders and exchange students.
+More information about tuition fees
+Application opens 15 March 2027
+## Summary
+The master’s programme in Computer Science offers freedom and flexibility to choose among a wide range of courses. Computer science is a broad topic that spans everything from theory of computation to the practice of designing software systems. Our master’s programme utilizes the University of Gothenburg’s research-focused Department of Computer Science and Engineering to provide a comprehensive programme. As a student, you get the opportunity to explore the whole spectrum of computer science and specialize according to your interests.
+### Study Counselling
+For questions regarding choice of study programme, support in your current studies, or guidance in your future career, please contact:
+studycounselling@cse.gu.se
+More contact information
+### Application/Admission
+For information on application and admission, please contact:
+antagning@gu.se
+More contact information
+## About
+Computers are everywhere in society, with both beneficial and detrimental influence. With increasing connection and communication, however, the possibilities of misinformation, cyber-attacks, and breaches of privacy grow. On the other hand, aspects of life such as travel have never been more accessible, from air travel to self-driving cars. Algorithms steer our lives, influencing where we shop and what we buy, how we learn and how we communicate. At its core, computer science is the science of programming, studying the general powers and limitations of computing, the design and characteristics of hardware and software, and the solving of problems in applications of computers.
+### A full-spectrum master’s programme
+We have strong, internationally recognized research groups driving our programme, addressing a wide range of questions including the properties of electronic devices, the character of human reasoning, individual design components, globally distributed systems, fundamental understanding of computation, and highly pragmatic, applied research.
+You can choose courses from a wide range of areas:
+algorithms and machine learning
+interaction design, computer graphics, and game design
+distributed computing and networks
+digital systems, computer architecture, and hardware verification
+security and privacy
+programming languages, formal logic, and dependent types
+real-time systems and dependability
+functional programming and parallel computing
+software engineering and program analysis
+natural language processing
+### A unique opportunity for freedom and flexibility
+Our programme stands out by giving you the freedom to shape your own path in computer science. Unlike many other programmes with numerous mandatory courses and a more rigid structure, the master's programme in Computer Science contains only one compulsory course. You also have the option to spend a semester abroad through our exchange programme, studying at one of our partner universities — an excellent opportunity to broaden both your academic and personal horizons.
+You can find more information about the courses on the
+programme Canvas page.
+### A diverse learning environment
+The Department of Computer Science and Engineering is shared between the University of Gothenburg and Chalmers University of Technology and spans two campuses, easily accessible by public transportation and integrated with the city. Depending on the courses you choose, you will experience group and individual assignments, seminars, and project-focused work.
+### A solid foundation in computer science from which you can go anywhere
+You will be equipped with the knowledge, skills, and attitudes required for a successful professional career in a large variety of information technology areas, both in industry and academia. In particular, the programme enables you as a future professional to conceive, design, and implement systems which work correctly, are maintainable, and reliable.
+Student interview: My favourite subjects are machine learning and artificial intelligence
+## Programme structure and content
+The only mandatory course in the programme, "The Computer Scientist in Society", is about technical writing and communication, and ethics.
+The programme’s flexibility allows you to take courses beyond the field of computer science as part of your degree, enabling you to build a unique computer science profile tailored to your individual interests.
+The final semester is devoted to your master’s thesis project, which you may complete individually or in pairs. You also have the option to collaborate with a company, provided that the project primarily focuses on deepening the knowledge and skills you have developed throughout the master’s programme.
+Play video: Master's programme in Computer Science
+Navigate to video: Master's programme in Computer Science
+Video (01:38)
+Master's programme in Computer Science
+## Who should apply?
+Would you like to combine thorough thinking with rapid experimentation?
+Do you want to explore the principles behind computer systems?
+Do you want a wide variety of choice and the ability to build your own path in computer science?
+Then apply to the master’s programme in Computer Science.
+## Prerequisites and selection
+### Entry requirements
+## Entry requirements
+- A bachelor's degree of 180 credits within the field of computer science or equivalent,
+- 17\.5 credits in mathematics, of which at least 7.5 credits in discrete mathematics or equivalent,
+- 15 credits programming,
+- 7\.5 credits data structures or equivalent.
+Applicants must prove their knowledge of English: English, level 2/English 6/English B from Swedish Upper Secondary School or the equivalent level of an internationally recognized test, for example TOEFL, IELTS.
+## Specific entry requirements for admission to a course within the study programme
+Within the study programme there can be specific entry requirements for admission to individual courses. These specific entry requirements are documented in each course syllabus and state which entry requirements are necessary to be registered on a course within the study programme.
+## Selection
+Selection is according to the Higher Education Ordinance and the University of Gothenburg admission regulations for education on first and second cycle.
+### Special instructions for application
+To facilitate the assessment of your qualifications, please use the form below and state the names of courses you consider relevant to the entry requirements of the master’s programme. If the course content is not clearly reflected in the course title, please clarify how the course meets the entry requirements.
+Once completed, download the filled-in form and attach it to your application at
+universityadmissions.se
+Form: Entry requirements for the Master’s Programme in Computer Science
+### Selection
+Selection is based upon the number of credits from previous university studies, maximum 165 credits.
+## After graduation
+Graduates of the programme receive the Degree of Master of Science with a major in Computer Science.
+After graduation, you will be highly qualified to work as a programmer, systems architect, system developer, and project leader, or to undertake research in computer science. Our emphasis on modelling, design, and on conceptual abilities will provide you with flexibility, so you can adapt to emerging and evolving job markets.
+International and local industry appreciate the high skills and broad profile of our graduates, some of whom have gone to work at large companies such as Ericsson, Apple, and Google, while others have been part of start-ups.
+Alumni interview
+Alexander Sjösten recently received a doctorate from the Department of Computer Science and Engineering.
+Student interview
+Alex Tomescu from Bucharest was when the interview was conducted is in his second semester at the Master’s programme in…
+## Study at The University of Gothenburg
+How to apply
+To be admitted to the University, you need to do an online application. The application procedure is straightforward, but it…
+Scholarships for fee paying students
+A scholarship can help cover the costs of your studies at the University of Gothenburg. On these pages you will find…
+University studies in Sweden
+External link
+The Academic calendar in Sweden
+External link
+Last modified
+12 October 2026

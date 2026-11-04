@@ -1,0 +1,317 @@
+=== PAGE 1 ===
+IT FACULTY
+Game Design & Technology Master's Programme, 120
+credits
+Game Design & Technology masterprogram, 120 högskolepoäng
+Programme code: N2GDT
+Second cycle / Avancerad nivå
+ 
+1. Confirmation
+ 
+This programme syllabus was confirmed by the IT Faculty Board on 10-10-2018 (G 2018/470)
+and was last revised on 13-09-2022 (GU 2022/2361) to be valid from 28-08-2023, Autumn
+semester 2023.
+ 
+Responsible Department/equivalent: Department of Computer Science and Engineering
+ 
+ 
+2. Purpose
+ 
+The aim of the study programme is to educate professional developers within the areas of
+programming which are central to advanced game engine development. The programme
+provides a competitive set of skills for both professional roles related to the development of
+game technology – for example graphics engine architect, physics engine architect, AI developer,
+and network architect – and for continued studies at PhD level.
+ 
+The profile of the study programme is characterized by a combination of advanced
+technological knowledge and a development methodology that allows the creation of large and
+technologically complex system in interdisciplinary development teams where the requirement
+specification are mutable and strongly dependent on the user experience of the intended end
+users. The study programme applies a battery of different perspectives and approaches that
+combine to educate highly qualified developers that can both design and implement game
+engines and equivalent systems (e.g. interactive simulations) to high levels of quality. Further, it
+allows students to continue their studies at PhD level and become researchers that can innovate
+and conduct advanced technological experiments within the areas of computer graphics, physics
+simulation, network optimization, and gameplay design.
+ 
+A central stance in the study programme is to be close to the current research in all the technical
+areas within the study programme, and to connect the development of technology to the design
+of user experiences.
+ 
+Programme Syllabus  Reg.no. GU
+2022/2361
+(N2GDT) Game Design & Technology Master's Programme, 120 credits / Game Design & Technology
+masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+
+=== PAGE 2 ===
+3. Entry requirements
+ 
+Bachelor’s degree 180 credits including 7.5 credits project or equivalent within the field of
+Software Engineering, Computer Science, Information Technology, Information Systems, or
+equivalent.
+ 
+4.5 credits in mathematics.
+ 
+15 credits of programming, of which 7.5 credits is object oriented programming.
+ 
+Applicants must prove their knowledge of English: English 6/English B from Swedish Upper
+Secondary School or the equivalent level of an internationally recognized test, for example
+TOEFL, IELTS.
+ 
+  
+Specific entry requirements for admission to a course within the study programme
+ 
+Within the study programme there can be specific entry requirements for admission to
+individual courses. These specific entry requirements are documented in each course syllabus
+and state which entry requirements are necessary to be registered on a course within the study
+programme.
+ 
+  
+Selection
+ 
+Selection is according to the Higher Education Ordinance and the University of Gothenburg
+admission regulations for education on first and second cycle.
+ 
+ 
+4. Higher education qualification and main field of study
+ 
+This programme leads to a Degree of Master of Science (120 credits) with a major in Interaction
+Design (Filosofie masterexamen med huvudområdet Interaktionsdesign).
+ 
+ 
+5. Outcomes
+ 
+General outcomes for Degree of Master (120 credits)
+ 
+Knowledge and understanding
+ 
+For a Degree of Master (120 credits) the student shall
+ 
+G demonstrate knowledge and understanding in the main field of study, including both broad
+knowledge of the field and a considerable degree of specialised knowledge in certain areas
+of the field as well as insight into current research and development work, and
+G demonstrate specialised methodological knowledge in the main field of study.
+  
+Competence and skills
+ 
+For a Degree of Master (120 credits) the student shall
+ 
+G demonstrate the ability to critically and systematically integrate knowledge and analyse,
+assess and deal with complex phenomena, issues and situations even with limited
+information
+(N2GDT) Game Design & Technology Master's Programme, 120 credits / Game Design & Technology
+masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+2/6
+
+=== PAGE 3 ===
+G demonstrate the ability to identify and formulate issues critically, autonomously and
+creatively as well as to plan and, using appropriate methods, undertake advanced tasks
+within predetermined time frames and so contribute to the formation of knowledge as well
+as the ability to evaluate this work
+G demonstrate the ability in speech and writing both nationally and internationally to clearly
+report and discuss his or her conclusions and the knowledge and arguments on which they
+are based in dialogue with different audiences, and
+G demonstrate the skills required for participation in research and development work or
+autonomous employment in some other qualified capacity.
+  
+Judgement and approach
+ 
+For a Degree of Master (120 credits) the student shall
+ 
+G demonstrate the ability to make assessments in the main field of study informed by relevant
+disciplinary, social and ethical issues and also to demonstrate awareness of ethical aspects
+of research and development work
+G demonstrate insight into the possibilities and limitations of research, its role in society and
+the responsibility of the individual for how it is used, and
+G demonstrate the ability to identify the personal need for further knowledge and take
+responsibility for his or her ongoing learning.
+  
+ 
+Local outcomes
+ 
+ 
+Knowledge and understanding
+ 
+For a Degree of Master of Science (120 credits) with a major in Interaction Design the student
+shall
+ 
+G exhibit deep knowledge about the primary technology areas important for developing game
+engine and similar systems, as well as the current research questions within these areas,
+G display knowledge and understanding of the complexity of handling requirements in
+software development projects which depend on both advanced technological development
+and strict requirements on what user experiences these provide,
+G display knowledge and understanding regarding theories and methods related to 
+G the development, improvement, and verification of rendering systems,
+G the development, improvement, and verification of physics simulations,
+G the development, improvement, and verification of real-time network systems,
+G the development, improvement, and verification of AI systems,
+G the design and evaluation of game experiences, including tools to measure and analyze
+user experiences of systems that are to be deployed on large scales,
+G the design and evaluation of game engines and similar system that make use of the
+parts above as components, and specifically how these can be continued to be
+developed, and,
+G dedicated tools for the areas above and how these can be developed and verified.
+  
+ 
+(N2GDT) Game Design & Technology Master's Programme, 120 credits / Game Design & Technology
+masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+3/6
+
+=== PAGE 4 ===
+Competence and skills
+ 
+For a Degree of Master of Science (120 credits) with a major in Interaction Design the student
+shall
+ 
+G be able to design new game engines and modules modified to the requirements present in
+modern games and interactive simulations,
+G be able to design tools to support the testing and verification of game engines as well as
+tools to ease the development of game content to these systems,
+G be able to plan and communicate design suggestions and development processes for the
+above system given mutable development contexts, and
+G show theoretical knowledge and practical ability related to the research methodology
+relevant to software development of game engines and expansions of these.
+ 
+Judgement and approach
+ 
+For a Degree of Master of Science (120 credits) with a major in Interaction Design the student
+shall
+ 
+G analyze the advantages and disadvantages with various approaches to develop game
+engines and expansions of game engines,
+G modify the development of complicated software systems based on requirements
+specifications that partly build upon intended user experiences and gameplay, and
+G independently handle mutable development contexts and be active in seeking new
+knowledge and skills related to development processes.
+ 
+6. Content and structure
+ 
+The education consists of courses related to the development and testing of software that is part
+of game engines and interactive simulations. The study programme consists of 120 credits in
+total, of which 75 credits are in terms of compulsory courses within the main field of Interaction
+Design, including 30 credits independent work (the master thesis). In addition, there is a
+possibility of including a maximum of 30 credits optional courses within or outside the main
+field of study. Students wishing to follow a course within the main field of study, but where the
+course is not part of the programme, shall consult the programme management.
+ 
+The courses are given in a progressive order so they both independently and together develop
+the students’ competences and abilities within the main field, with the overarching aim of
+ensuring that the examination goals are met. A foundational understanding of the main field is
+provided through the compulsory courses during the first semester. Further compulsory courses
+continue to develop this understanding until the master thesis, while the optional courses
+provide incremental deepening or broadening of the students’ skill sets. This structure provides
+the students with an academic and theoretical foundation within the fields that characterize
+game engine development.
+ 
+The education is implemented through lectures, seminars, teacher led exercises, labs, and
+supervision, as well as projects where students apply and deepen their knowledge.
+ 
+The study year is divided into two semesters and four study periods. A semester contains two
+study periods of 15 credits each. Normally, a student attends two courses in parallel each study
+period. 
+ 
+(N2GDT) Game Design & Technology Master's Programme, 120 credits / Game Design & Technology
+masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+4/6
+
+=== PAGE 5 ===
+Study process
+ 
+The first semester consists only of compulsory courses and introduces important parts and
+characteristics of the game engine development field. The second and third semester contains
+one compulsory course each study period and the possibility for students to choose between
+deepening and broadening their education through optional courses. The study programme
+consists of the following compulsory courses:
+ 
+An introduction to Game Research, 7,5 hp 
+Computer Graphics, 7,5 hp 
+Gameplay Design, 7,5 hp 
+Game Engine Architecture, 7,5 hp 
+Game Development Project, 7,5 hp 
+Current Trends in Gaming, 7,5 hp 
+Master's Thesis in Computer Science and Engineering, 30 credits or Master's Thesis in
+Computer Science and Engineering, 60 credits
+ 
+Within Software Engineering: 
+Requirements Engineering, 7.5 credits 
+Agile Development Processes, 7.5 credits
+ 
+The course ”Master Thesis” contains independent work (master thesis) of 30 credits. Students
+attending the course “Master Thesis 60 credits” do not need to take the courses Game Design &
+Technology Project, 7.5 credits and Current Trends in Gaming, 7.5 credits.
+ 
+Students can apply to take alternative courses of studies. These can be in preparation for
+research- or development work. 
+  
+Optional Courses
+ 
+Students can take optional courses within the study programme totaling 30 credits. The courses
+can be taken at Gothenburg University or at other universities within or outside Sweden. The
+choice of courses within the main field of study outside the programme’s courses shall consult
+the programme management. Examples of possibilities to specialize within in the programme
+include:
+ 
+G Computer Graphics
+G Distributed Real-Time Games
+G AI and Game Agents
+G Naturalistic Simulations
+G Game Development on mobile and other non-traditional platforms
+ 
+Language of tuition
+ 
+Language of tuition is English.
+ 
+ 
+7. Guaranteed admission 
+ 
+Students who follow the study programme at the prescribed pace are guaranteed admission to
+all compulsory and elective courses stated in the programme syllabus, provided that the student
+in question is eligible for the course/courses provided that specific entry requirements are
+fulfilled and the student applies to the course within the study programme within the prescribed
+(N2GDT) Game Design & Technology Master's Programme, 120 credits / Game Design & Technology
+masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+5/6
+
+=== PAGE 6 ===
+application period.
+ 
+For elective courses outside the study programme local admission regulations are valid and
+there is no guaranteed admission.
+ 
+ 
+8. Other information
+ 
+Credit transfer of former education
+ 
+In some cases, the student has the right to be given credit for former higher education according
+to the legislative regulations of the Higher Education Ordinance.
+ 
+  
+Evaluation
+ 
+The courses of the study programme are evaluated according to each course syllabus. The result
+will be used for planning and implementation of upcoming courses. A summary is given to
+students at the start of the courses.
+ 
+The study programme will be followed up and evaluated in accordance with the applicable
+Policy för kvalitetssäkring och kvalitetsutveckling av utbildning vid Göteborgs universitet
+(Policy for the Quality assurance and Quality Development of Education at the University of
+Gothenburg).
+ 
+  
+Revision of the syllabus
+ 
+This syllabus is a revision of the syllabus confirmed by the IT Faculty Board, University of
+Gothenburg, on 01-06-2016 (reg. no. G 2016/181).
+ 
+  
+  
+(N2GDT) Game Design & Technology Master's Programme, 120 credits / Game Design & Technology
+masterprogram, 120 högskolepoäng
+Second cycle / Avancerad nivå
+6/6

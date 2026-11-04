@@ -1,0 +1,94 @@
+# Logic, Master's Programme
+## Logik, masterprogram
+Program
+H2LOG
+120 credits  (ECTS)
+Go to
+Logic, Master's Programme
+## About the Syllabus
+Valid from
+Spring semester 2024
+Registration number
+GU 2026/5
+Date of entry into force
+2026-03-15
+Decision date
+2026-02-02
+Valid from semester
+Autumn term 2026
+Decision maker
+Dean of the Faculty
+## Purpose
+The purpose of the Master's Programme in Logic is to provide students with thorough theoretical knowledge – and the ability to apply it – within a central intellectual field, which gets its theoretical interest and practical value from a unique combination of humanities, mathematics and information science.
+The main goal is that students, after successful completion of the programme, will have a coherent training and thorough understanding of the theoretical fundamentals of the subject of logic itself, its general role in the sciences and humanities, as well as its applications in fields like philosophy, linguistics, mathematics and computer science. Students will be well prepared for a career of research and development in logic and its applications, both in academia and industry.
+The programme thus contains both a number of core courses, which provide a solid foundation in the fundamentals of theoretical logic and its applications, and a number of elective specializations tailored to the background, interests and career plans for individual students.
+The pedagogical basis of the programme is: (i) the interdisciplinarity of the subject; (ii) the varying backgrounds of the students; (iii) a personal mentor for every student and a personalized curriculum; (iv) intense collaborative work, crossing traditional academic subject boundaries; (v) using practical exercises as a means of theoretical understanding; (vi) usage of modern, technology-supported, instruction methods, promoting student activity and fostering independent work; (vii) a pronounced and firm connection to ongoing research activities.
+## Entry requirements
+Admission to the programme requires, besides fulfilling basic entry requirements, successful completion of
+at least 60 credits in total in the subject areas mathematics, logic, computer science or formal linguistics, or
+at least 90 credits in philosophy or linguistics, and additionally, or as part of the 90 credits, at least 30 credits in total in the subject areas mathematics, logic, computer science or formal linguistics,
+or equivalent knowledge.
+Applicants must prove their knowledge of English: English 6/English B from Swedish Upper Secondary School or an equivalent level, for example from an internationally recognized test, like TOEFL or IELTS.
+## Degree and main field of study
+This programme leads to a Degree of Master of Arts (120 credits) with a major in Logic (Filosofie masterexamen med huvudområdet Logik).
+## Content
+The first semester consists of four compulsory courses of 7,5 credits each:
+LOG112
+Logic and completeness
+LOG121
+Set theory
+LOG115
+Models of computation
+LOG131
+Modal logic
+The students are furthermore encouraged to, at appropriate occasions, participate in the research seminar in logic at the department.
+The second semester also has four compulsory courses of 7.5 credits each:
+LOG221
+Proof theory
+LOG215
+Expressibility and incompleteness
+LOG211
+Model theory
+LOG250
+Philosophy of logic
+The third semester has one compulsory course of 7.5 credits:
+LOG311
+Research skills in logic
+and three elective courses from the programme's offerings. At least one of these should be a specialization, preparing the student for the degree project during the fourth semester, and is typically given as an individual reading course. The student chooses courses are in consultation with their individual mentor. Course offerings may vary between years.
+The fourth semester is devoted to the independent project – the 30 credit Master's Thesis. Match-making between potential supervisors, students and project proposals is done towards the end of the third semester, to enable immediate start with the thesis work the last semester.
+There are no obligatory placement periods, but when appropriate work with the master thesis project can be placed at a company or with a research group outside the department. In such cases there is always a placement supervisor from the department who ensures that the work follows goals and regulations from the university.
+## Objectives
+### General outcomes for Degree of Master
+See
+The Higher Education Ordinance
+, Annex 2.
+### Local objectives
+Knowledge and understanding
+for a Degree of Master (120 credits), the student shall
+demonstrate knowledge and understanding of the core subjects within the field oflogic, their interrelations, and the relation between logic and neighbouring academic fields and current research and development,
+demonstrate advanced knowledge of central concepts, methods, questions and theoriesin the field of logic and its applications in philosophy, linguistics, computer science and mathematics, and
+demonstrate advanced and specialised knowledge in at least one of the subareas of logic, and its applications.
+Competence and skills
+for a Degree of Master (120 credits), the student shall
+demonstrate the ability to discuss, analyse and evaluate results and issues in logic and its applications, based on a awareness of research traditions in the field,
+demonstrate the ability to critically, independently and creatively identify and formulate research questions, to plan and, using adequate methods, undertake advanced tasks within predetermined time frames and thus contribute to the formation of knowledge as well as the ability to evaluate this work,
+demonstrate the ability in speech and writing, both nationally and internationally, to clearly report and discuss their conclusions and the knowledge and arguments on which
+they are based in dialogue with different audiences,
+demonstrate the skills required to be able to apply methods from different areas of logic to new fields,
+demonstrate the skills required for participation in research and development work or independent work in some other qualified capacity, and
+demonstrate ability to cooperate in multi-disciplinary groups.
+Judgement and approach
+for a Degree of Master (120 credits), the student shall
+demonstrate awareness of how the field of logic relates to the general development of scientific knowledge, its limitations and its role in society, and also to demonstrate awareness of ethical aspects of research and development work,
+demonstrate the ability to identify the personal need for further knowledge and take responsibility for their ongoing learning, and
+demonstrate the ability to, unrestricted by traditional academic subject boundaries, move between the different fields related to logic.
+## Sustainability labelling
+No sustainability labelling.
+## Other regulations
+The language of instruction is English.
+Course evaluations involving students are done for every course, and are used in continuous development of the programme. Each semester there is a follow-up in cooperation with the programme coordinator and student representatives. Overall quality assurance and development of courses and the programme as a whole is discussed by all involved teachers at an annual programme conference.
+The study programme will be evaluated in accordance with the Policy for Quality Assurance and Quality Improvement of Education at the University of Gothenburg (Policy för kvalitetssäkring och kvalitetsutveckling av utbildning vid Göteborgs universitet).
+This version of the education plan is a revision with respect to the previous version, which has been operational since spring semester 2024.
+## Guaranteed admission
+A student admitted to the programme, and who follows the programme at the prescribed pace of study, is subject to limited guaranteed admission. Guaranteed admission applies to all obligatory courses.
+During the third semester the student is guaranteed admission to three elective courses (but not necessarily the student's first choices).

@@ -1,0 +1,63 @@
+{
+  "category": "AI, Computer Science and Technology",
+  "listing_url": "https://www.gu.se/en/study-in-gothenburg/programs-and-courses/masters-programs",
+  "scraped_at_utc": "2026-11-02T22:26:44.120637+00:00",
+  "programmes": [
+    {
+      "name": "Computer Science",
+      "url": "https://www.gu.se/en/study-gothenburg/computer-science-masters-programme-n2cos",
+      "code": "N2COS",
+      "status": "ok",
+      "syllabus_format": "html"
+    },
+    {
+      "name": "Digital Leadership",
+      "url": "https://www.gu.se/en/study-gothenburg/digital-leadership-masters-programme-n2dgl",
+      "code": "N2DGL",
+      "status": "ok",
+      "syllabus_format": "html"
+    },
+    {
+      "name": "Game Design and Technology",
+      "url": "https://www.gu.se/en/study-gothenburg/game-design-technology-masters-programme-n2gdt",
+      "code": "N2GDT",
+      "status": "ok",
+      "syllabus_format": "pdf"
+    },
+    {
+      "name": "Human-centered Artificial Intelligence",
+      "url": "https://www.gu.se/en/study-gothenburg/human-centered-artificial-intelligence-masters-programme-t2hai",
+      "code": "T2HAI",
+      "status": "ok",
+      "syllabus_format": "pdf"
+    },
+    {
+      "name": "Information Technology and Learning",
+      "url": "https://www.gu.se/en/study-gothenburg/international-masters-programme-in-information-technology-and-learning-s2iol",
+      "code": "S2IOL",
+      "status": "ok",
+      "syllabus_format": "html"
+    },
+    {
+      "name": "Language Technology",
+      "url": "https://www.gu.se/en/study-gothenburg/master-in-language-technology-h2ltg",
+      "code": "H2LTG",
+      "status": "ok",
+      "syllabus_format": "pdf"
+    },
+    {
+      "name": "Logic",
+      "url": "https://www.gu.se/en/study-gothenburg/logic-masters-programme-h2log",
+      "code": "H2LOG",
+      "status": "ok",
+      "syllabus_format": "html"
+    },
+    {
+      "name": "Software and AI Engineering",
+      "url": "https://www.gu.se/en/study-gothenburg/software-and-ai-engineering-masters-programme-n2ase",
+      "code": "N2ASE",
+      "status": "page_only",
+      "syllabus_format": null
+    }
+  ]
+}

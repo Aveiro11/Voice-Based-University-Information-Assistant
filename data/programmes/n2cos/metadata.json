@@ -1,0 +1,38 @@
+{
+  "name": "Computer Science",
+  "url": "https://www.gu.se/en/study-gothenburg/computer-science-masters-programme-n2cos",
+  "code": "N2COS",
+  "syllabus_format": "html",
+  "syllabus_url": "https://www.gu.se/en/study-gothenburg/computer-science-masters-programme-n2cos/syllabus/0e858d0c-8eea-11f0-b29b-713806674b84",
+  "syllabus_pages": null,
+  "syllabus_chars": 7465,
+  "selection_reason": "only one distinct syllabus link",
+  "all_syllabus_links": [
+    {
+      "url": "https://www.gu.se/en/study-gothenburg/computer-science-masters-programme-n2cos/syllabus/0e858d0c-8eea-11f0-b29b-713806674b84",
+      "format": "html",
+      "intake": "Autumn 2026",
+      "application_code": "GU-86008"
+    },
+    {
+      "url": "https://www.gu.se/en/study-gothenburg/computer-science-masters-programme-n2cos/syllabus/0e858d0c-8eea-11f0-b29b-713806674b84",
+      "format": "html",
+      "intake": "Autumn 2026",
+      "application_code": "GU-86007"
+    },
+    {
+      "url": "https://www.gu.se/en/study-gothenburg/computer-science-masters-programme-n2cos/syllabus/0e858d0c-8eea-11f0-b29b-713806674b84",
+      "format": "html",
+      "intake": "Autumn 2027",
+      "application_code": "GU-86005"
+    },
+    {
+      "url": "https://www.gu.se/en/study-gothenburg/computer-science-masters-programme-n2cos/syllabus/0e858d0c-8eea-11f0-b29b-713806674b84",
+      "format": "html",
+      "intake": "Autumn 2027",
+      "application_code": "GU-86004"
+    }
+  ],
+  "programme_page_chars": 10186,
+  "scraped_at_utc": "2026-11-02T22:26:31.444363+00:00"
+}
